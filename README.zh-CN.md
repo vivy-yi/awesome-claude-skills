@@ -1,6 +1,6 @@
 # Awesome Claude Skills & AI Agents 精选列表
 
-> Claude Code 技能、AI 智能体框架、MCP 服务器、编排工具、评估框架、MLOps 平台和学习资源的精选列表，用于构建智能体。**250+ 项目持续增长中！**
+> Claude Code 技能、AI 智能体框架、MCP 服务器、编排工具、评估框架、MLOps 平台和学习资源的精选列表，用于构建智能体。**330+ 项目持续增长中！**
 
 [![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-claude-skills)](https://github.com/vivy-yi/awesome-claude-skills)
 [![License](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
@@ -23,6 +23,12 @@
 - [AI 内存与上下文系统](#ai-内存与上下文系统)
 - [微调与 LoRA 库](#微调与-lora-库)
 - [数据标注与标签](#数据标注与标签)
+- [AI 安全与防护](#ai-安全与防护)
+- [知识图谱](#知识图谱)
+- [多模态 AI](#多模态-ai)
+- [计算机视觉工具](#计算机视觉工具)
+- [NLP 与文本处理](#nlp-与文本处理)
+- [语音与音频处理](#语音与音频处理)
 - [社区技能](#社区技能)
 - [评估与测试](#评估与测试)
 - [编排与工作流](#编排与工作流)
@@ -689,6 +695,228 @@
 |------|-------|-------------|------|
 | [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) | ![Stars](https://img.shields.io/github/stars/cleanlab/cleanlab) | 用于数据质量和处理混乱数据的机器学习的数据中心 AI 包 | Python |
 | [Toloka/crowd-kit](https://github.com/Toloka/crowd-kit) | ![Stars](https://img.shields.io/github/stars/Toloka/crowd-kit) | 控制标注数据质量的 Python 工具 | Python |
+
+---
+
+## AI 安全与防护
+
+### 对抗机器学习与鲁棒性
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [DSE-MSU/DeepRobust](https://github.com/DSE-MSU/DeepRobust) | ![Stars](https://img.shields.io/github/stars/DSE-MSU/DeepRobust) | 图像和图的对抗攻击与防御库 | Python |
+| [bethgelab/robustness](https://github.com/bethgelab/robustness) | ![Stars](https://img.shields.io/github/stars/bethgelab/robustness) | 测量神经网络鲁棒性的工具 | Python |
+| [NVlabs/RobustVision](https://github.com/NVlabs/RobustVision) | ![Stars](https://img.shields.io/github/stars/NVlabs/RobustVision) | 鲁棒计算机视觉基准测试和工具 | Python |
+| [madrylab/adversarialml](https://github.com/madrylab/adversarialml) | ![Stars](https://img.shields.io/github/stars/madrylab/adversarialml) | 对抗鲁棒性研究工具 | Python |
+
+### AI 安全与测试
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [Giskard-AI/giskard](https://github.com/Giskard-AI/giskard) | ![Stars](https://img.shields.io/github/stars/Giskard-AI/giskard) | AI 测试和调试，包含安全扫描 | Python |
+| [Giskard-AI/awesome-ai-safety](https://github.com/Giskard-AI/awesome-ai-safety) | ![Stars](https://img.shields.io/github/stars/Giskard-AI/awesome-ai-safety) | AI 质量与安全论文和文章精选列表 | 收集 |
+| [jivoi/awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity) | ![Stars](https://img.shields.io/github/stars/jivoi/awesome-ml-for-cybersecurity) | 网络安全机器学习资源 | 收集 |
+
+### 隐私保护机器学习
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [tensorflow/privacy](https://github.com/tensorflow/privacy) | ![Stars](https://img.shields.io/github/stars/tensorflow/privacy) | TensorFlow 训练的差分隐私 | Python |
+| [PyTorch-Team/opacus](https://github.com/PyTorch-Team/opacus) | ![Stars](https://img.shields.io/github/stars/PyTorch-Team/opacus) | PyTorch 模型的差分隐私 | Python |
+| [OpenMined/PySyft](https://github.com/OpenMined/PySyft) | ![Stars](https://img.shields.io/github/stars/OpenMined/PySyft) | 联邦学习和隐私保护机器学习 | Python |
+| [NVIDIA/NVFlare](https://github.com/NVIDIA/NVFlare) | ![Stars](https://img.shields.io/github/stars/NVIDIA/NVFlare) | 联邦学习框架 | Python |
+
+### AI 公平性与偏见检测
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [fairlearn/fairlearn](https://github.com/fairlearn/fairlearn) | ![Stars](https://img.shields.io/github/stars/fairlearn/fairlearn) | 机器学习的公平性缓解算法 | Python |
+| [Trusted-AI/AIF360](https://github.com/Trusted-AI/AIF360) | ![Stars](https://img.shields.io/github/stars/Trusted-AI/AIF360) | AI 公平性 360 偏见检测工具包 | Python |
+| [dssg/aequitas](https://github.com/dssg/aequitas) | ![Stars](https://img.shields.io/github/stars/dssg/aequitas) | 偏见和公平性审计工具包 | Python |
+
+---
+
+## 知识图谱
+
+### 图数据库
+
+| 数据库 | Stars | 描述 | 语言 |
+|--------|-------|-------------|------|
+| [neo4j/neo4j](https://github.com/neo4j/neo4j) | ![Stars](https://img.shields.io/github/stars/neo4j/neo4j) | 世界领先的图数据库平台 | Java |
+| [dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) | ![Stars](https://img.shields.io/github/stars/dgraph-io/dgraph) | 高性能实时图数据库 | Go |
+| [JanusGraph/janusgraph](https://github.com/JanusGraph/janusgraph) | ![Stars](https://img.shields.io/github/stars/JanusGraph/janusgraph) | 开源分布式图数据库 | Java |
+| [apache/incubator-hugegraph](https://github.com/apache/incubator-hugegraph) | ![Stars](https://img.shields.io/github/stars/apache/incubator-hugegraph) | 支持 1000+ 亿数据的图数据库 | Java |
+| [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | ![Stars](https://img.shields.io/github/stars/surrealdb/surrealdb) | 可扩展的文档图数据库 | Rust |
+
+### 知识图谱构建
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [getzep/graphiti](https://github.com/getzep/graphiti) | ![Stars](https://img.shields.io/github/stars/getzep/graphiti) | 为 AI 智能体构建实时知识图谱 | Python |
+| [zjunlp/DeepKE](https://github.com/zjunlp/DeepKE) | ![Stars](https://img.shields.io/github/stars/zjunlp/DeepKE) | 知识图谱提取和构建开放工具包 | Python |
+| [usc-isi-i2/kgtk](https://github.com/usc-isi-i2/kgtk) | ![Stars](https://img.shields.io/github/stars/usc-isi-i2/kgtk) | 知识图谱工具包 | Python |
+| [whyhow-ai/knowledge-graph-studio](https://github.com/whyhow-ai/knowledge-graph-studio) | ![Stars](https://img.shields.io/github/stars/whyhow-ai/knowledge-graph-studio) | 用于 AI 智能体的知识图谱工作室 | Python |
+
+### 图可视化
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [antvis/G6](https://github.com/antvis/G6) | ![Stars](https://img.shields.io/github/stars/antvis/G6) | JavaScript 图可视化框架 | JavaScript |
+| [gephi/gephi](https://github.com/gephi/gephi) | ![Stars](https://img.shields.io/github/stars/gephi/gephi) | 开放图可视化平台 | Java |
+| [cytoscape/cytoscape.js](https://github.com/cytoscape/cytoscape.js) | ![Stars](https://img.shields.io/github/stars/cytoscape/cytoscape.js) | 图可视化理论库 | JavaScript |
+
+### RDF 与语义网
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [apache/jena](https://github.com/apache/jena) | ![Stars](https://img.shields.io/github/stars/apache/jena) | 语义网和链接数据框架 | Java |
+| [RDFLib/rdflib](https://github.com/RDFLib/rdflib) | ![Stars](https://img.shields.io/github/stars/RDFLib/rdflib) | 处理 RDF 的 Python 库 | Python |
+| [protegeproject/protege](https://github.com/protegeproject/protege) | ![Stars](https://img.shields.io/github/stars/protegeproject/protege) | 行业标准的本体编辑器 | Java |
+
+---
+
+## 多模态 AI
+
+### 主要框架
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [NVIDIA-NeMo/NeMo](https://github.com/NVIDIA-NeMo/NeMo) | ![Stars](https://img.shields.io/github/stars/NVIDIA-NeMo/NeMo) | 用于 LLM、多模态和语音的可扩展生成式 AI 框架 | Python |
+| [facebookresearch/mmf](https://github.com/facebookresearch/mmf) | ![Stars](https://img.shields.io/github/stars/facebookresearch/mmf) | 视觉与语言研究的模块化框架 | Python |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | ![Stars](https://img.shields.io/github/stars/modelscope/ms-swift) | 训练/微调 600+ LLM 和 300+ MLLM | Python |
+
+### 视觉语言模型 (VLM)
+
+| 模型 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [vikhyat/moondream](https://github.com/vikhyat/moondream) | ![Stars](https://img.shields.io/github/stars/vikhyat/moondream) | 小型视觉语言模型 | Python |
+| [NVlabs/VILA](https://github.com/NVlabs/VILA) | ![Stars](https://img.shields.io/github/stars/NVlabs/VILA) | 最先进的视觉语言模型 | Python |
+| [deepseek-ai/DeepSeek-VL2](https://github.com/deepseek-ai/DeepSeek-VL2) | ![Stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-VL2) | 混合专家视觉语言模型 | Python |
+| [QwenLM/Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) | ![Stars](https://img.shields.io/github/stars/QwenLM/Qwen3-VL) | 多模态大型语言模型系列 | Python |
+
+### 多模态嵌入
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [rom1504/clip-retrieval](https://github.com/rom1504/clip-retrieval) | ![Stars](https://img.shields.io/github/stars/rom1504/clip-retrieval) | 计算 CLIP 嵌入并构建检索系统 | Python |
+| [facebookresearch/SONAR](https://github.com/facebookresearch/SONAR) | ![Stars](https://img.shields.io/github/stars/facebookresearch/SONAR) | 多语言和多模态句子嵌入空间 | Python |
+| [lancedb/lancedb](https://github.com/lancedb/lancedb) | ![Stars](https://img.shields.io/github/stars/lancedb/lancedb) | 用于多模态 AI 的嵌入式检索库 | Rust |
+| [TIGER-AI-Lab/VLM2Vec](https://github.com/TIGER-AI-Lab/VLM2Vec) | ![Stars](https://img.shields.io/github/stars/TIGER-AI-Lab/VLM2Vec) | 为多模态嵌入任务训练 VLM | Python |
+
+### 视频理解
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [OpenGVLab/InternVideo](https://github.com/OpenGVLab/InternVideo) | ![Stars](https://img.shields.io/github/stars/OpenGVLab/InternVideo) | 用于多模态理解的视频基础模型 | Python |
+| [DAMO-NLP-SG/VideoLLaMA3](https://github.com/DAMO-NLP-SG/VideoLLaMA3) | ![Stars](https://img.shields.io/github/stars/DAMO-NLP-SG/VideoLLaMA3) | 视频理解的多模态基础模型 | Python |
+| [QwenLM/Qwen2.5-Omni](https://github.com/QwenLM/Qwen2.5-Omni) | ![Stars](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Omni) | 支持实时语音生成的端到端多模态模型 | Python |
+
+---
+
+## 计算机视觉工具
+
+### 核心 CV 框架
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [opencv/opencv](https://github.com/opencv/opencv) | ![Stars](https://img.shields.io/github/stars/opencv/opencv) | 行业标准计算机视觉库 | C++ |
+| [pytorch/vision](https://github.com/pytorch/vision) | ![Stars](https://img.shields.io/github/stars/pytorch/vision) | 计算机视觉的数据集、转换和模型 | Python |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | ![Stars](https://img.shields.io/github/stars/roboflow/supervision) | 用于检测和跟踪的可重用计算机视觉工具 | Python |
+| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | ![Stars](https://img.shields.io/github/stars/scikit-image/scikit-image) | Python 图像处理 | Python |
+
+### 目标检测与分割
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | ![Stars](https://img.shields.io/github/stars/ultralytics/ultralytics) | 用于检测、分割和分类的 YOLO 模型 | Python |
+| [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | ![Stars](https://img.shields.io/github/stars/open-mmlab/mmdetection) | OpenMMLab 检测工具箱和基准 | Python |
+| [open-mmlab/mmsegmentation](https://github.com/open-mmlab/mmsegmentation) | ![Stars](https://img.shields.io/github/stars/open-mmlab/mmsegmentation) | OpenMMLab 语义分割工具箱 | Python |
+
+### 人脸识别
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) | ![Stars](https://img.shields.io/github/stars/ageitgey/face_recognition) | 世界上最简单的人脸识别 API | Python |
+| [deepinsight/insightface](https://github.com/deepinsight/insightface) | ![Stars](https://img.shields.io/github/stars/deepinsight/insightface) | 最先进的 2D 和 3D 人脸识别 | Python |
+
+### 图像处理库
+
+| 库 | Stars | 描述 | 语言 |
+|----|-------|-------------|------|
+| [libvips/libvips](https://github.com/libvips/libvips) | ![Stars](https://img.shields.io/github/stars/libvips/libvips) | 低内存快速图像处理 | C |
+| [lovell/sharp](https://github.com/lovell/sharp) | ![Stars](https://img.shields.io/github/stars/lovell/sharp) | 高性能 Node.js 图像处理 | Node.js |
+| [kornia/kornia](https://github.com/kornia/kornia) | ![Stars](https://img.shields.io/github/stars/kornia/kornia) | 用于空间 AI 的几何计算机视觉库 | Python |
+
+---
+
+## NLP 与文本处理
+
+### 主要 NLP 框架
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [huggingface/transformers](https://github.com/huggingface/transformers) | ![Stars](https://img.shields.io/github/stars/huggingface/transformers) | 文本、视觉、音频的最先进 ML 模型 | Python |
+| [explosion/spaCy](https://github.com/explosion/spaCy) | ![Stars](https://img.shields.io/github/stars/explosion/spaCy) | 工业级 Python NLP | Python |
+| [flairNLP/flair](https://github.com/flairNLP/flair) | ![Stars](https://img.shields.io/github/stars/flairNLP/flair) | 带有命名实体识别的最先进 NLP | Python |
+| [nltk/nltk](https://github.com/nltk/nltk) | ![Stars](https://img.shields.io/github/stars/nltk/nltk) | 经典 Python NLP 库 | Python |
+
+### 文本处理与分词
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [hankcs/HanLP](https://github.com/hankcs/HanLP) | ![Stars](https://img.shields.io/github/stars/hankcs/HanLP) | 中文 NLP 工具包：分词、词性标注、NER | Java |
+| [OpenNMT/Tokenizer](https://github.com/OpenNMT/Tokenizer) | ![Stars](https://img.shields.io/github/stars/OpenNMT/Tokenizer) | 支持 BPE 和 SentencePiece 的快速文本分词 | C++ |
+| [cbaziotis/ekphrasis](https://github.com/cbaziotis/ekphrasis) | ![Stars](https://img.shields.io/github/stars/cbaziotis/ekphrasis) | 社交媒体文本处理，包含分词和规范化 | Python |
+
+### 文档处理
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured) | ![Stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured) | 轻松将文档转换为结构化数据 | Python |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | ![Stars](https://img.shields.io/github/stars/deepset-ai/haystack) | 用于 LLM 应用的 AI 编排框架，支持 RAG | Python |
+
+### 文本嵌入与相似度
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | ![Stars](https://img.shields.io/github/stars/embeddings-benchmark/mteb) | 大规模文本嵌入基准 | Python |
+| [xlang-ai/instructor-embedding](https://github.com/xlang-ai/instructor-embedding) | ![Stars](https://img.shields.io/github/stars/xlang-ai/instructor-embedding) | 指令微调文本嵌入 | Python |
+
+---
+
+## 语音与音频处理
+
+### 语音转文字 (STT)
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [openai/whisper](https://github.com/openai/whisper) | ![Stars](https://img.shields.io/github/stars/openai/whisper) | 强大的多语言语音识别系统 | Python |
+| [coqui-ai/STT](https://github.com/coqui-ai/STT) | ![Stars](https://img.shields.io/github/stars/coqui-ai/STT) | 用于 STT 训练和部署的深度学习工具包 | Python |
+| [jianchang512/stt](https://github.com/jianchang512/stt) | ![Stars](https://img.shields.io/github/stars/jianchang512/stt) | 离线音频/视频转字幕工具 | Python |
+
+### 文字转语音 (TTS)
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [coqui-ai/TTS](https://github.com/coqui-ai/TTS) | ![Stars](https://img.shields.io/github/stars/coqui-ai/TTS) | 生产级 TTS 深度学习工具包 | Python |
+| [mozilla/TTS](https://github.com/mozilla/TTS) | ![Stars](https://img.shields.io/github/stars/mozilla/TTS) | 用于 TTS 合成的深度学习 | Python |
+| [rhasspy/piper](https://github.com/rhasspy/piper) | ![Stars](https://img.shields.io/github/stars/rhasspy/piper) | 快速的本地神经 TTS 系统 | C |
+| [rany2/edge-tts](https://github.com/rany2/edge-tts) | ![Stars](https://img.shields.io/github/stars/rany2/edge-tts) | 无需 Edge 或 Windows 的 Microsoft Edge TTS | Python |
+
+### 音频处理
+
+| 库 | Stars | 描述 | 语言 |
+|----|-------|-------------|------|
+| [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) | ![Stars](https://img.shields.io/github/stars/facebookresearch/audiocraft) | 最先进的音频处理与 MusicGen | Python |
+| [librosa/librosa](https://github.com/librosa/librosa) | ![Stars](https://img.shields.io/github/stars/librosa/librosa) | 用于音频和音乐分析的 Python 库 | Python |
+| [pytorch/audio](https://github.com/pytorch/audio) | ![Stars](https://img.shields.io/github/stars/pytorch/audio) | PyTorch 驱动的音频信号处理 | Python |
+
+### 语音活动检测
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [dpirch/libfvad](https://github.com/dpirch/libfvad) | ![Stars](https://img.shields.io/github/stars/dpirch/libfvad) | 基于 WebRTC VAD 引擎的 VAD 库 | C |
+| [gkonovalov/android-vad](https://github.com/gkonovalov/android-vad) | ![Stars](https://img.shields.io/github/stars/gkonovalov/android-vad) | 支持 WebRTC 和 Silero 模型的 Android VAD | Kotlin |
 
 ---
 

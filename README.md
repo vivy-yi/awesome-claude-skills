@@ -1,6 +1,6 @@
 # Awesome Claude Skills & AI Agents
 
-> Curated list of the best Claude Code skills, AI agent frameworks, MCP servers, orchestration tools, evaluation frameworks, MLOps platforms, and learning resources for building intelligent agents. **250+ projects and growing!**
+> Curated list of the best Claude Code skills, AI agent frameworks, MCP servers, orchestration tools, evaluation frameworks, MLOps platforms, and learning resources for building intelligent agents. **330+ projects and growing!**
 
 [![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-claude-skills)](https://github.com/vivy-yi/awesome-claude-skills)
 [![License](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
@@ -21,6 +21,12 @@
 - [AI Memory & Context Systems](#ai-memory--context-systems)
 - [Fine-tuning & LoRA Libraries](#fine-tuning--lora-libraries)
 - [Data Annotation & Labeling](#data-annotation--labeling)
+- [AI Security & Safety](#ai-security--safety)
+- [Knowledge Graphs](#knowledge-graphs)
+- [Multimodal AI](#multimodal-ai)
+- [Computer Vision Tools](#computer-vision-tools)
+- [NLP & Text Processing](#nlp--text-processing)
+- [Speech & Audio Processing](#speech--audio-processing)
 - [Community Skills](#community-skills)
 - [Evaluation & Testing](#evaluation--testing)
 - [Orchestration & Workflows](#orchestration--workflows)
@@ -708,6 +714,228 @@
 |------|-------|-------------|----------|
 | [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) | ![Stars](https://img.shields.io/github/stars/cleanlab/cleanlab) | Data-centric AI package for data quality and machine learning with messy data | Python |
 | [Toloka/crowd-kit](https://github.com/Toloka/crowd-kit) | ![Stars](https://img.shields.io/github/stars/Toloka/crowd-kit) | Python tools to control quality of labeled data | Python |
+
+---
+
+## AI Security & Safety
+
+### Adversarial ML & Robustness
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [DSE-MSU/DeepRobust](https://github.com/DSE-MSU/DeepRobust) | ![Stars](https://img.shields.io/github/stars/DSE-MSU/DeepRobust) | Adversarial attack and defense library for images and graphs | Python |
+| [bethgelab/robustness](https://github.com/bethgelab/robustness) | ![Stars](https://img.shields.io/github/stars/bethgelab/robustness) | Tools for measuring neural network robustness | Python |
+| [NVlabs/RobustVision](https://github.com/NVlabs/RobustVision) | ![Stars](https://img.shields.io/github/stars/NVlabs/RobustVision) | Robust computer vision benchmarks and tools | Python |
+| [madrylab/adversarialml](https://github.com/madrylab/adversarialml) | ![Stars](https://img.shields.io/github/stars/madrylab/adversarialml) | Adversarial robustness research tools | Python |
+
+### AI Safety & Testing
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [Giskard-AI/giskard](https://github.com/Giskard-AI/giskard) | ![Stars](https://img.shields.io/github/stars/Giskard-AI/giskard) | AI testing and debugging with security scanning | Python |
+| [Giskard-AI/awesome-ai-safety](https://github.com/Giskard-AI/awesome-ai-safety) | ![Stars](https://img.shields.io/github/stars/Giskard-AI/awesome-ai-safety) | Curated list of AI Quality & Safety papers and articles | Collection |
+| [jivoi/awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity) | ![Stars](https://img.shields.io/github/stars/jivoi/awesome-ml-for-cybersecurity) | Machine learning for cybersecurity resources | Collection |
+
+### Privacy-Preserving ML
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [tensorflow/privacy](https://github.com/tensorflow/privacy) | ![Stars](https://img.shields.io/github/stars/tensorflow/privacy) | Differential privacy for TensorFlow training | Python |
+| [PyTorch-Team/opacus](https://github.com/PyTorch-Team/opacus) | ![Stars](https://img.shields.io/github/stars/PyTorch-Team/opacus) | Differential privacy for PyTorch models | Python |
+| [OpenMined/PySyft](https://github.com/OpenMined/PySyft) | ![Stars](https://img.shields.io/github/stars/OpenMined/PySyft) | Federated learning and privacy-preserving ML | Python |
+| [NVIDIA/NVFlare](https://github.com/NVIDIA/NVFlare) | ![Stars](https://img.shields.io/github/stars/NVIDIA/NVFlare) | Federated learning framework | Python |
+
+### AI Fairness & Bias Detection
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [fairlearn/fairlearn](https://github.com/fairlearn/fairlearn) | ![Stars](https://img.shields.io/github/stars/fairlearn/fairlearn) | Fairness mitigation algorithms for ML | Python |
+| [Trusted-AI/AIF360](https://github.com/Trusted-AI/AIF360) | ![Stars](https://img.shields.io/github/stars/Trusted-AI/AIF360) | AI Fairness 360 toolkit for bias detection | Python |
+| [dssg/aequitas](https://github.com/dssg/aequitas) | ![Stars](https://img.shields.io/github/stars/dssg/aequitas) | Bias and fairness audit toolkit | Python |
+
+---
+
+## Knowledge Graphs
+
+### Graph Databases
+
+| Database | Stars | Description | Language |
+|----------|-------|-------------|----------|
+| [neo4j/neo4j](https://github.com/neo4j/neo4j) | ![Stars](https://img.shields.io/github/stars/neo4j/neo4j) | World's leading graph database platform | Java |
+| [dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) | ![Stars](https://img.shields.io/github/stars/dgraph-io/dgraph) | High-performance graph database for real-time use cases | Go |
+| [JanusGraph/janusgraph](https://github.com/JanusGraph/janusgraph) | ![Stars](https://img.shields.io/github/stars/JanusGraph/janusgraph) | Open-source distributed graph database | Java |
+| [apache/incubator-hugegraph](https://github.com/apache/incubator-hugegraph) | ![Stars](https://img.shields.io/github/stars/apache/incubator-hugegraph) | Graph database supporting 100+ billion data | Java |
+| [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | ![Stars](https://img.shields.io/github/stars/surrealdb/surrealdb) | Scalable document-graph database | Rust |
+
+### Knowledge Graph Construction
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [getzep/graphiti](https://github.com/getzep/graphiti) | ![Stars](https://img.shields.io/github/stars/getzep/graphiti) | Build real-time knowledge graphs for AI agents | Python |
+| [zjunlp/DeepKE](https://github.com/zjunlp/DeepKE) | ![Stars](https://img.shields.io/github/stars/zjunlp/DeepKE) | Open toolkit for knowledge graph extraction and construction | Python |
+| [usc-isi-i2/kgtk](https://github.com/usc-isi-i2/kgtk) | ![Stars](https://img.shields.io/github/stars/usc-isi-i2/kgtk) | Knowledge Graph Toolkit | Python |
+| [whyhow-ai/knowledge-graph-studio](https://github.com/whyhow-ai/knowledge-graph-studio) | ![Stars](https://img.shields.io/github/stars/whyhow-ai/knowledge-graph-studio) | Knowledge Graph Studio for AI agents | Python |
+
+### Graph Visualization
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [antvis/G6](https://github.com/antvis/G6) | ![Stars](https://img.shields.io/github/stars/antvis/G6) | Graph visualization framework in JavaScript | JavaScript |
+| [gephi/gephi](https://github.com/gephi/gephi) | ![Stars](https://img.shields.io/github/stars/gephi/gephi) | Open graph visualization platform | Java |
+| [cytoscape/cytoscape.js](https://github.com/cytoscape/cytoscape.js) | ![Stars](https://img.shields.io/github/stars/cytoscape/cytoscape.js) | Graph theory library for visualization | JavaScript |
+
+### RDF & Semantic Web
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [apache/jena](https://github.com/apache/jena) | ![Stars](https://img.shields.io/github/stars/apache/jena) | Framework for Semantic Web and Linked Data | Java |
+| [RDFLib/rdflib](https://github.com/RDFLib/rdflib) | ![Stars](https://img.shields.io/github/stars/RDFLib/rdflib) | Python library for working with RDF | Python |
+| [protegeproject/protege](https://github.com/protegeproject/protege) | ![Stars](https://img.shields.io/github/stars/protegeproject/protege) | Industry-standard ontology editor | Java |
+
+---
+
+## Multimodal AI
+
+### Major Frameworks
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [NVIDIA-NeMo/NeMo](https://github.com/NVIDIA-NeMo/NeMo) | ![Stars](https://img.shields.io/github/stars/NVIDIA-NeMo/NeMo) | Scalable generative AI framework for LLMs, multimodal, and speech | Python |
+| [facebookresearch/mmf](https://github.com/facebookresearch/mmf) | ![Stars](https://img.shields.io/github/stars/facebookresearch/mmf) | Modular framework for vision & language research | Python |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | ![Stars](https://img.shields.io/github/stars/modelscope/ms-swift) | Train/fine-tune 600+ LLMs and 300+ MLLMs | Python |
+
+### Vision-Language Models (VLM)
+
+| Model | Stars | Description | Language |
+|-------|-------|-------------|----------|
+| [vikhyat/moondream](https://github.com/vikhyat/moondream) | ![Stars](https://img.shields.io/github/stars/vikhyat/moondream) | Tiny vision language model | Python |
+| [NVlabs/VILA](https://github.com/NVlabs/VILA) | ![Stars](https://img.shields.io/github/stars/NVlabs/VILA) | State-of-the-art vision language models | Python |
+| [deepseek-ai/DeepSeek-VL2](https://github.com/deepseek-ai/DeepSeek-VL2) | ![Stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-VL2) | Mixture-of-Experts vision-language models | Python |
+| [QwenLM/Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) | ![Stars](https://img.shields.io/github/stars/QwenLM/Qwen3-VL) | Multimodal large language model series | Python |
+
+### Multimodal Embeddings
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [rom1504/clip-retrieval](https://github.com/rom1504/clip-retrieval) | ![Stars](https://img.shields.io/github/stars/rom1504/clip-retrieval) | Compute CLIP embeddings and build retrieval system | Python |
+| [facebookresearch/SONAR](https://github.com/facebookresearch/SONAR) | ![Stars](https://img.shields.io/github/stars/facebookresearch/SONAR) | Multilingual and multimodal sentence embedding space | Python |
+| [lancedb/lancedb](https://github.com/lancedb/lancedb) | ![Stars](https://img.shields.io/github/stars/lancedb/lancedb) | Embedded retrieval library for multimodal AI | Rust |
+| [TIGER-AI-Lab/VLM2Vec](https://github.com/TIGER-AI-Lab/VLM2Vec) | ![Stars](https://img.shields.io/github/stars/TIGER-AI-Lab/VLM2Vec) | Training VLMs for multimodal embedding tasks | Python |
+
+### Video Understanding
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [OpenGVLab/InternVideo](https://github.com/OpenGVLab/InternVideo) | ![Stars](https://img.shields.io/github/stars/OpenGVLab/InternVideo) | Video foundation models for multimodal understanding | Python |
+| [DAMO-NLP-SG/VideoLLaMA3](https://github.com/DAMO-NLP-SG/VideoLLaMA3) | ![Stars](https://img.shields.io/github/stars/DAMO-NLP-SG/VideoLLaMA3) | Multimodal foundation models for video understanding | Python |
+| [QwenLM/Qwen2.5-Omni](https://github.com/QwenLM/Qwen2.5-Omni) | ![Stars](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Omni) | End-to-end multimodal model with real-time speech generation | Python |
+
+---
+
+## Computer Vision Tools
+
+### Core CV Frameworks
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [opencv/opencv](https://github.com/opencv/opencv) | ![Stars](https://img.shields.io/github/stars/opencv/opencv) | Industry-standard computer vision library | C++ |
+| [pytorch/vision](https://github.com/pytorch/vision) | ![Stars](https://img.shields.io/github/stars/pytorch/vision) | Datasets, transforms and models for computer vision | Python |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | ![Stars](https://img.shields.io/github/stars/roboflow/supervision) | Reusable computer vision tools for detection and tracking | Python |
+| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | ![Stars](https://img.shields.io/github/stars/scikit-image/scikit-image) | Image processing in Python | Python |
+
+### Object Detection & Segmentation
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | ![Stars](https://img.shields.io/github/stars/ultralytics/ultralytics) | YOLO models for detection, segmentation, and classification | Python |
+| [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | ![Stars](https://img.shields.io/github/stars/open-mmlab/mmdetection) | OpenMMLab detection toolbox and benchmark | Python |
+| [open-mmlab/mmsegmentation](https://github.com/open-mmlab/mmsegmentation) | ![Stars](https://img.shields.io/github/stars/open-mmlab/mmsegmentation) | OpenMMLab semantic segmentation toolbox | Python |
+
+### Face Recognition
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) | ![Stars](https://img.shields.io/github/stars/ageitgey/face_recognition) | World's simplest facial recognition API | Python |
+| [deepinsight/insightface](https://github.com/deepinsight/insightface) | ![Stars](https://img.shields.io/github/stars/deepinsight/insightface) | State-of-the-art 2D and 3D face recognition | Python |
+
+### Image Processing Libraries
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [libvips/libvips](https://github.com/libvips/libvips) | ![Stars](https://img.shields.io/github/stars/libvips/libvips) | Fast image processing with low memory needs | C |
+| [lovell/sharp](https://github.com/lovell/sharp) | ![Stars](https://img.shields.io/github/stars/lovell/sharp) | High performance Node.js image processing | Node.js |
+| [kornia/kornia](https://github.com/kornia/kornia) | ![Stars](https://img.shields.io/github/stars/kornia/kornia) | Geometric computer vision library for spatial AI | Python |
+
+---
+
+## NLP & Text Processing
+
+### Major NLP Frameworks
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [huggingface/transformers](https://github.com/huggingface/transformers) | ![Stars](https://img.shields.io/github/stars/huggingface/transformers) | State-of-the-art ML models for text, vision, audio | Python |
+| [explosion/spaCy](https://github.com/explosion/spaCy) | ![Stars](https://img.shields.io/github/stars/explosion/spaCy) | Industrial-strength NLP in Python | Python |
+| [flairNLP/flair](https://github.com/flairNLP/flair) | ![Stars](https://img.shields.io/github/stars/flairNLP/flair) | State-of-the-art NLP with named entity recognition | Python |
+| [nltk/nltk](https://github.com/nltk/nltk) | ![Stars](https://img.shields.io/github/stars/nltk/nltk) | Classic Python NLP library | Python |
+
+### Text Processing & Tokenization
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [hankcs/HanLP](https://github.com/hankcs/HanLP) | ![Stars](https://img.shields.io/github/stars/hankcs/HanLP) | Chinese NLP toolkit: word segmentation, POS, NER | Java |
+| [OpenNMT/Tokenizer](https://github.com/OpenNMT/Tokenizer) | ![Stars](https://img.shields.io/github/stars/OpenNMT/Tokenizer) | Fast text tokenization with BPE and SentencePiece | C++ |
+| [cbaziotis/ekphrasis](https://github.com/cbaziotis/ekphrasis) | ![Stars](https://img.shields.io/github/stars/cbaziotis/ekphrasis) | Text processing for social media with tokenization | Python |
+
+### Document Processing
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured) | ![Stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured) | Convert documents to structured data effortlessly | Python |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | ![Stars](https://img.shields.io/github/stars/deepset-ai/haystack) | AI orchestration framework for LLM applications with RAG | Python |
+
+### Text Embeddings & Similarity
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | ![Stars](https://img.shields.io/github/stars/embeddings-benchmark/mteb) | Massive text embedding benchmark | Python |
+| [xlang-ai/instructor-embedding](https://github.com/xlang-ai/instructor-embedding) | ![Stars](https://img.shields.io/github/stars/xlang-ai/instructor-embedding) | Instruction-finetuned text embeddings | Python |
+
+---
+
+## Speech & Audio Processing
+
+### Speech-to-Text (STT)
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [openai/whisper](https://github.com/openai/whisper) | ![Stars](https://img.shields.io/github/stars/openai/whisper) | Robust multilingual speech recognition system | Python |
+| [coqui-ai/STT](https://github.com/coqui-ai/STT) | ![Stars](https://img.shields.io/github/stars/coqui-ai/STT) | Deep learning toolkit for STT training and deployment | Python |
+| [jianchang512/stt](https://github.com/jianchang512/stt) | ![Stars](https://img.shields.io/github/stars/jianchang512/stt) | Offline audio/video to subtitle tool | Python |
+
+### Text-to-Speech (TTS)
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [coqui-ai/TTS](https://github.com/coqui-ai/TTS) | ![Stars](https://img.shields.io/github/stars/coqui-ai/TTS) | Deep learning toolkit for TTS in production | Python |
+| [mozilla/TTS](https://github.com/mozilla/TTS) | ![Stars](https://img.shields.io/github/stars/mozilla/TTS) | Deep learning for TTS synthesis | Python |
+| [rhasspy/piper](https://github.com/rhasspy/piper) | ![Stars](https://img.shields.io/github/stars/rhasspy/piper) | Fast, local neural TTS system | C |
+| [rany2/edge-tts](https://github.com/rany2/edge-tts) | ![Stars](https://img.shields.io/github/stars/rany2/edge-tts) | Microsoft Edge TTS without Edge or Windows | Python |
+
+### Audio Processing
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) | ![Stars](https://img.shields.io/github/stars/facebookresearch/audiocraft) | State-of-the-art audio processing with MusicGen | Python |
+| [librosa/librosa](https://github.com/librosa/librosa) | ![Stars](https://img.shields.io/github/stars/librosa/librosa) | Python library for audio and music analysis | Python |
+| [pytorch/audio](https://github.com/pytorch/audio) | ![Stars](https://img.shields.io/github/stars/pytorch/audio) | Audio signal processing powered by PyTorch | Python |
+
+### Voice Activity Detection
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [dpirch/libfvad](https://github.com/dpirch/libfvad) | ![Stars](https://img.shields.io/github/stars/dpirch/libfvad) | VAD library based on WebRTC's VAD engine | C |
+| [gkonovalov/android-vad](https://github.com/gkonovalov/android-vad) | ![Stars](https://img.shields.io/github/stars/gkonovalov/android-vad) | Android VAD with WebRTC and Silero models | Kotlin |
 
 ---
 
