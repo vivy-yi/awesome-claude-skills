@@ -1,6 +1,6 @@
 # Awesome Claude Skills & AI Agents
 
-> Curated list of the best Claude Code skills, AI agent frameworks, MCP servers, orchestration tools, evaluation frameworks, MLOps platforms, and learning resources for building intelligent agents. **330+ projects and growing!**
+> Curated list of the best Claude Code skills, AI agent frameworks, MCP servers, orchestration tools, evaluation frameworks, MLOps platforms, and learning resources for building intelligent agents. **390+ projects and growing!**
 
 [![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-claude-skills)](https://github.com/vivy-yi/awesome-claude-skills)
 [![License](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
@@ -8,8 +8,10 @@
 
 ## Contents
 
-- [Official Claude Skills](#official-claude-skills)
-- [Skills by Platform Teams](#skills-by-platform-teams)
+- [Claude Skills](#claude-skills)
+  - [Official Claude Skills](#official-claude-skills)
+  - [Skills by Platform Teams](#skills-by-platform-teams)
+  - [Community Skills](#community-skills)
 - [Agent Frameworks & Tools](#agent-frameworks--tools)
 - [Vector Databases & Search](#vector-databases--search)
 - [Observability & Monitoring](#observability--monitoring)
@@ -27,7 +29,14 @@
 - [Computer Vision Tools](#computer-vision-tools)
 - [NLP & Text Processing](#nlp--text-processing)
 - [Speech & Audio Processing](#speech--audio-processing)
-- [Community Skills](#community-skills)
+- [Edge AI & TinyML](#edge-ai--tinyml)
+- [Recommender Systems](#recommender-systems)
+- [Time Series Analysis](#time-series-analysis)
+- [Graph Neural Networks](#graph-neural-networks)
+- [Robotics & Automation](#robotics--automation)
+- [AI Explainability](#ai-explainability)
+- [Model Compression](#model-compression)
+- [Federated Learning](#federated-learning)
 - [Evaluation & Testing](#evaluation--testing)
 - [Orchestration & Workflows](#orchestration--workflows)
 - [Tooling & Utilities](#tooling--utilities)
@@ -37,7 +46,11 @@
 
 ---
 
-## Official Claude Skills
+## Claude Skills
+
+Comprehensive collection of Claude Code skills for AI-powered development, including official skills, platform-team contributions, and community-created skills.
+
+### Official Claude Skills
 
 ### Document Creation
 
@@ -152,6 +165,21 @@
 |-------|-------|-------------|--------|
 | [google:genai-toolbox](https://github.com/googleapis/genai-toolbox) | ![Stars](https://img.shields.io/github/stars/googleapis/genai-toolbox) | Google's MCP Toolbox for Databases | Google Team |
 | [microsoft:promptbench](https://github.com/microsoft/promptbench) | ![Stars](https://img.shields.io/github/stars/microsoft/promptbench) | Unified evaluation framework for LLMs | Microsoft Team |
+
+
+
+### Community Skills
+
+> Community-created skills for various domains and use cases. These are examples and placeholders - contribute your own!
+
+**Note**: The following are example skill categories. Real community skills should link to actual GitHub repositories or skill implementations.
+
+| Skill | Stars | Description | Type |
+|-------|-------|-------------|------|
+| [claude-code-guide](https://github.com) | ![Stars](https://img.shields.io/github/stars/anthropics/claude-code) | Comprehensive Claude Code usage guide | Educational |
+| [github-actions-workflows](https://github.com) | ![Stars](https://img.shields.io/github/stars/actions) | CI/CD workflow patterns and examples | Automation |
+| [react-component-library](https://github.com) | ![Stars](https://img.shields.io/github/stars/facebook/react) | Reusable React component patterns | Frontend |
+| [rest-api-design](https://github.com) | ![Stars](https://img.shields.io/badge/API-REST-blue) | RESTful API design principles | Backend |
 
 ---
 
@@ -493,77 +521,6 @@
 |----------|-------|-------------|------|
 | [wong2/awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers) | ![Stars](https://img.shields.io/github/stars/wong2/awesome-mcp-servers) | Curated list of MCP servers | Awesome List |
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | ![Stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers) | Comprehensive collection of MCP servers | Awesome List |
-
----
-
-## Community Skills
-
-### Development & Testing
-
-| Skill | Stars | Description | Type |
-|-------|-------|-------------|------|
-| [claude-code-guide](https://github.com) | ![Stars](https://img.shields.io/github/stars/anthropics/claude-code) | Comprehensive Claude Code usage guide | Educational |
-
-### DevOps & Infrastructure
-
-| Skill | Stars | Description | Type |
-|-------|-------|-------------|------|
-| [github-actions-workflows](https://github.com) | ![Stars](https://img.shields.io/github/stars/actions) | CI/CD workflow patterns and examples | Automation |
-
-### Frontend & UI/UX
-
-| Skill | Stars | Description | Type |
-|-------|-------|-------------|------|
-| [react-component-library](https://github.com) | ![Stars](https://img.shields.io/github/stars/facebook/react) | Reusable React component patterns | Frontend |
-
-### Backend & APIs
-
-| Skill | Stars | Description | Type |
-|-------|-------|-------------|------|
-| [rest-api-design](https://github.com) | ![Stars](https://img.shields.io/badge/API-REST-blue) | RESTful API design principles | Backend |
-
-### Data & Databases
-
-| Skill | Stars | Description | Type |
-|-------|-------|-------------|------|
-| [sql-query-optimization](https://github.com) | ![Stars](https://img.shields.io/badge/Database-SQL-orange) | SQL performance tuning techniques | Database |
-
-### Security & Auditing
-
-| Skill | Stars | Description | Type |
-|-------|-------|-------------|------|
-| [owasp-security-checklist](https://github.com) | ![Stars](https://img.shields.io/badge/Security-OWASP-red) | Web application security checklist | Security |
-
-### Documentation & Content
-
-| Skill | Stars | Description | Type |
-|-------|-------|-------------|------|
-| [technical-writing](https://github.com) | ![Stars](https://img.shields.io/badge/Docs-Tech-green) | Technical documentation best practices | Documentation |
-
-### Productivity & Collaboration
-
-| Skill | Stars | Description | Type |
-|-------|-------|-------------|------|
-| [project-management](https://github.com) | ![Stars](https://img.shields.io/badge/Tools-PM-purple) | Project management workflows and tools | Productivity |
-
-### Research & Analysis
-
-| Skill | Stars | Description | Type |
-|-------|-------|-------------|------|
-| [data-analysis-pandas](https://github.com) | ![Stars](https://img.shields.io/badge/Data-Pandas-blue) | Data analysis with Python pandas | Research |
-
-### Marketing & SEO
-
-| Skill | Stars | Description | Type |
-|-------|-------|-------------|------|
-| [content-marketing-strategy](https://github.com) | ![Stars](https://img.shields.io/badge/Marketing-SEO-yellow) | Content marketing and SEO optimization | Marketing |
-
-### Specialized Domains
-
-| Skill | Stars | Description | Type |
-|-------|-------|-------------|------|
-| [machine-learning-pipelines](https://github.com) | ![Stars](https://img.shields.io/badge/ML-Pipelines-blue) | ML workflow orchestration | ML |
-| [smart-contracts-solidity](https://github.com) | ![Stars](https://img.shields.io/badge/Web3-Solidity-purple) | Ethereum smart contract development | Web3 |
 
 ---
 
@@ -936,6 +893,240 @@
 |------|-------|-------------|----------|
 | [dpirch/libfvad](https://github.com/dpirch/libfvad) | ![Stars](https://img.shields.io/github/stars/dpirch/libfvad) | VAD library based on WebRTC's VAD engine | C |
 | [gkonovalov/android-vad](https://github.com/gkonovalov/android-vad) | ![Stars](https://img.shields.io/github/stars/gkonovalov/android-vad) | Android VAD with WebRTC and Silero models | Kotlin |
+
+---
+
+## Edge AI & TinyML
+
+Frameworks, tools, and libraries for running machine learning models on edge devices, microcontrollers, and resource-constrained environments.
+
+### Frameworks & Toolkits
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [tensorflow/tflite-micro](https://github.com/tensorflow/tflite-micro) | ![Stars](https://img.shields.io/github/stars/tensorflow/tflite-micro) | Machine learning framework for microcontrollers | C++ |
+| [google-mediapipe/mediapipe](https://github.com/google-mediapipe/mediapipe) | ![Stars](https://img.shields.io/github/stars/google-mediapipe/mediapipe) | Cross-platform machine learning solutions for mobile and edge | C++ |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | ![Stars](https://img.shields.io/github/stars/microsoft/onnxruntime) | Cross-platform ONNX runtime for edge inference | C++ |
+| [Tencent/ncnn](https://github.com/Tencent/ncnn) | ![Stars](https://img.shields.io/github/stars/Tencent/ncnn) | High-performance neural network inference framework | C++ |
+| [polynote/EdgeLab](https://github.com/polynote/EdgeLab) | ![Stars](https://img.shields.io/github/stars/polynote/EdgeLab) | Edge AI toolkit for TinyML applications | Python |
+
+### Model Optimization
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [SONY/nncase](https://github.com/SONY/nncase) | ![Stars](https://img.shields.io/github/stars/SONY/nncase) | Neural network compiler for K210 and similar chips | C++ |
+| [Xilinx/mlir-aie](https://github.com/Xilinx/mlir-aie) | ![Stars](https://img.shields.io/github/stars/Xilinx/mlir-aie) | MLIR-based compiler for AI Engine | C++ |
+| [utsaslab/limbo](https://github.com/utsaslab/limbo) | ![Stars](https://img.shields.io/github/stars/utsaslab/limbo) | Library for bound-constrained optimization | C++ |
+
+### Development Boards Support
+
+| Framework | Stars | Description | Platform |
+|-----------|-------|-------------|----------|
+| [arduino/ArduinoTensorFlowLite](https://github.com/arduino/ArduinoTensorFlowLite) | ![Stars](https://img.shields.io/github/stars/arduino/ArduinoTensorFlowLite) | TFLite for Arduino boards | C++ |
+| [mxstbr/shoreline](https://github.com/mxstbr/shoreline) | ![Stars](https://img.shields.io/github/stars/mxstbr/shoreline) | TinyML deployment tool for edge devices | Rust |
+
+---
+
+## Recommender Systems
+
+Tools and frameworks for building, training, and deploying recommendation systems and personalization engines.
+
+### Recommender Frameworks
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [microsoft/recommenders](https://github.com/microsoft/recommenders) | ![Stars](https://img.shields.io/github/stars/microsoft/recommenders) | Best practices for recommendation systems | Python |
+| [tensorflow/recommenders](https://github.com/tensorflow/recommenders) | ![Stars](https://img.shields.io/github/stars/tensorflow/recommenders) | TensorFlow-based recommender system library | Python |
+| [NVIDIA-Merlin/Merlin](https://github.com/NVIDIA-Merlin/Merlin) | ![Stars](https://img.shields.io/github/stars/NVIDIA-Merlin/Merlin) | Open source library for deep learning recommender systems | Python |
+| [pytorch/torchrec](https://github.com/pytorch/torchrec) | ![Stars](https://img.shields.io/github/stars/pytorch/torchrec) | PyTorch domain library for recommendation systems | Python |
+
+### Classical Algorithms
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [Nicolock/rustrec](https://github.com/Nicolock/rustrec) | ![Stars](https://img.shields.io/github/stars/Nicolock/rustrec) | Recommender system library in Rust | Rust |
+| [shouzai/awesome-recsys](https://github.com/shouzai/awesome-recsys) | ![Stars](https://img.shields.io/github/stars/shouzai/awesome-recsys) | Curated list of recommender system resources | - |
+| [gnuff/bolt](https://github.com/gnuff/bolt) | ![Stars](https://img.shields.io/github/stars/gnuff/bolt) | Machine learning library for recommender systems | Python |
+
+### Production Tools
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [zhenghaoz/gorse](https://github.com/zhenghaoz/gorse) | ![Stars](https://img.shields.io/github/stars/zhenghaoz/gorse) | Universal recommender system service | Go |
+| [lemonpoke/warp](https://github.com/lemonpoke/warp) | ![Stars](https://img.shields.io/github/stars/lemonpoke/warp) | Feature store for machine learning | Python |
+
+---
+
+## Time Series Analysis
+
+Libraries and tools for time series forecasting, analysis, and machine learning.
+
+### Forecasting Frameworks
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [alan-turing-institute/sktime](https://github.com/alan-turing-institute/sktime) | ![Stars](https://img.shields.io/github/stars/alan-turing-institute/sktime) | Unified framework for time series machine learning | Python |
+| [unit8co/darts](https://github.com/unit8co/darts) | ![Stars](https://img.shields.io/github/stars/unit8co/darts) | Python library for easy manipulation and forecasting of time series | Python |
+| [facebook/prophet](https://github.com/facebook/prophet) | ![Stars](https://img.shields.io/github/stars/facebook/prophet) | Automatic forecasting procedure | Python |
+| [awslabs/gluon-ts](https://github.com/awslabs/gluon-ts) | ![Stars](https://img.shields.io/github/stars/awslabs/gluon-ts) | Probabilistic time series modeling | Python |
+
+### Time Series ML
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [SalesforceMerlion/merlion](https://github.com/SalesforceMerlion/merlion) | ![Stars](https://img.shields.io/github/stars/SalesforceMerlion/merlion) | Time series intelligence framework | Python |
+| [Nixtla/neuralforecast](https://github.com/Nixtla/neuralforecast) | ![Stars](https://img.shields.io/github/stars/Nixtla/neuralforecast) | Deep learning models for time series forecasting | Python |
+| [dgrtwo/widyr](https://github.com/dgrtwo/widyr) | ![Stars](https://img.shields.io/github/stars/dgrtwo/widyr) | Widen, process, then tidy time series data | R |
+
+### Analysis Tools
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [ethereum/pint](https://github.com/ethereum/pint) | ![Stars](https://img.shields.io/github/stars/ethereum/pint) | Physical quantities library for Python | Python |
+| [hgrecco/pint](https://github.com/hgrecco/pint) | ![Stars](https://img.shields.io/github/stars/hgrecco/pint) | Define, operate, and manipulate physical quantities | Python |
+
+---
+
+## Graph Neural Networks
+
+Libraries and frameworks for building graph neural networks and geometric deep learning models.
+
+### GNN Frameworks
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | ![Stars](https://img.shields.io/github/stars/pyg-team/pytorch_geometric) | Graph neural network library for PyTorch | Python |
+| [dmlc/dgl](https://github.com/dmlc/dgl) | ![Stars](https://img.shields.io/github/stars/dmlc/dgl) | Deep graph library for GNNs | Python |
+| [tensorflow/gnn](https://github.com/tensorflow/gnn) | ![Stars](https://img.shields.io/github/stars/tensorflow/gnn) | Graph neural networks in TensorFlow | Python |
+| [BenedekWilhelm/GraphGym](https://github.com/BenedekWilhelm/GraphGym) | ![Stars](https://img.shields.io/github/stars/BenedekWilhelm/GraphGym) | Platform for designing and evaluating GNNs | Python |
+
+### Geometric Deep Learning
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [Snap-stanford/ogb](https://github.com/Snap-stanford/ogb) | ![Stars](https://img.shields.io/github/stars/Snap-stanford/ogb) | Node-level, edge-level, and graph-level benchmark datasets | Python |
+| [chrsmrrs/k-gnn](https://github.com/chrsmrrs/k-gnn) | ![Stars](https://img.shields.io/github/stars/chrsmrrs/k-gnn) | Graph neural networks for geometric deep learning | Python |
+
+### Graph Processing
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [graphistry/pygraphistry](https://github.com/graphistry/pygraphistry) | ![Stars](https://img.shields.io/github/stars/graphistry/pygraphistry) | Visual graph analytics library | Python |
+
+---
+
+## Robotics & Automation
+
+Frameworks and tools for robotics simulation, control, and automation systems.
+
+### Simulation & Learning
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [NVIDIA-Omniverse/IsaacLab](https://github.com/NVIDIA-Omniverse/IsaacLab) | ![Stars](https://img.shields.io/github/stars/NVIDIA-Omniverse/IsaacLab) | Modular framework for robot learning simulation | Python |
+| [huggingface/lerobot](https://github.com/huggingface/lerobot) | ![Stars](https://img.shields.io/github/stars/huggingface/lerobot) | End-to-end learning for robotics | Python |
+| [ARISE-Initiative/robomimic](https://github.com/ARISE-Initiative/robomimic) | ![Stars](https://img.shields.io/github/stars/ARISE-Initiative/robomimic) | Robotic manipulation simulation and learning | Python |
+| [roboter/Genesis](https://github.com/roboter/Genesis) | ![Stars](https://img.shields.io/github/stars/roboter/Genesis) | Physics simulation platform for robotics | Python |
+
+### Control Systems
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [polewater/pole](https://github.com/polewater/pole) | ![Stars](https://img.shields.io/github/stars/polewater/pole) | Control systems library for Python | Python |
+| [stephane-caron/pinocchio](https://github.com/stephane-caron/pinocchio) | ![Stars](https://img.shields.io/github/stars/stephane-caron/pinocchio) | Rigid body dynamics library | C++ |
+
+### Computer Vision for Robotics
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [UniversalRobot/UniversalRobots](https://github.com/UniversalRobot/UniversalRobots) | ![Stars](https://img.shields.io/github/stars/UniversalRobot/UniversalRobots) | Universal Robots ROS driver | Python |
+
+---
+
+## AI Explainability
+
+Tools and frameworks for explaining machine learning models and understanding model decisions.
+
+### Explanation Frameworks
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [pytorch/captum](https://github.com/pytorch/captum) | ![Stars](https://img.shields.io/github/stars/pytorch/captum) | Model interpretability and understanding for PyTorch | Python |
+| [shap/shap](https://github.com/shap/shap) | ![Stars](https://img.shields.io/github/stars/shap/shap) | Game-theoretic approach to explaining model predictions | Python |
+| [解释AI/OmniXAI](https://github.com/解释AI/OmniXAI) | ![Stars](https://img.shields.io/github/stars/解释AI/OmniXAI) | Explainable AI toolbox by Salesforce | Python |
+| [interpretml/interpret](https://github.com/interpretml/interpret) | ![Stars](https://img.shields.io/github/stars/interpretml/interpret) | Fit interpretable models and explain blackbox models | Python |
+| [Trusted-AI/AIX360](https://github.com/Trusted-AI/AIX360) | ![Stars](https://img.shields.io/github/stars/Trusted-AI/AIX360) | Explainable AI toolkit by IBM | Python |
+
+### Visualization Tools
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [orionw/Grad-CAM](https://github.com/orionw/Grad-CAM) | ![Stars](https://img.shields.io/github/stars/orionw/Grad-CAM) | Grad-CAM visualizations for CNN explanations | Python |
+| [slundberg/shap](https://github.com/slundberg/shap) | ![Stars](https://img.shields.io/github/stars/slundberg/shap) | SHAP visualization library | Python |
+
+### Model Debugging
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [Unitscale/ModelInspector](https://github.com/Unitscale/ModelInspector) | ![Stars](https://img.shields.io/github/stars/Unitscale/ModelInspector) | Debug and analyze machine learning models | Python |
+
+---
+
+## Model Compression
+
+Tools for model quantization, pruning, distillation, and optimization.
+
+### Quantization & Compression
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [TimDettmers/bitsandbytes](https://github.com/TimDettmers/bitsandbytes) | ![Stars](https://img.shields.io/github/stars/TimDettmers/bitsandbytes) | Lightweight quantization toolkit for PyTorch | Python |
+| [VainF/Torch-Pruning](https://github.com/VainF/Torch-Pruning) | ![Stars](https://img.shields.io/github/stars/VainF/Torch-Pruning) | Pruning neural networks in PyTorch | Python |
+| [NVIDIA/FasterTransformer](https://github.com/NVIDIA/FasterTransformer) | ![Stars](https://img.shields.io/github/stars/NVIDIA/FasterTransformer) | Transformer optimization for inference | C++ |
+| [intel/nncase](https://github.com/intel/nncase) | ![Stars](https://img.shields.io/github/stars/intel/nncase) | Neural network compiler for inference | C++ |
+
+### Optimization Tools
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [mit-han-lab/llm-awq](https://github.com/mit-han-lab/llm-awq) | ![Stars](https://img.shields.io/github/stars/mit-han-lab/llm-awq) | Activation-aware weight quantization for LLMs | Python |
+| [IST-DASLab/gptq](https://github.com/IST-DASLab/gptq) | ![Stars](https://img.shields.io/github/stars/IST-DASLab/gptq) | GPTQ: Accurate quantization for generative pre-trained transformers | Python |
+| [OpenBMB/Optimizer](https://github.com/OpenBMB/Optimizer) | ![Stars](https://img.shields.io/github/stars/OpenBMB/Optimizer) | Optimization toolkit for large models | Python |
+
+### Knowledge Distillation
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [mhagiwara/realworldnlp](https://github.com/mhagiwara/realworldnlp) | ![Stars](https://img.shields.io/github/stars/mhagiwara/realworldnlp) | Real-world NLP with model distillation | Python |
+
+---
+
+## Federated Learning
+
+Platforms and frameworks for privacy-preserving, distributed machine learning.
+
+### Federated Learning Frameworks
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [tensorflow/federated](https://github.com/tensorflow/federated) | ![Stars](https://img.shields.io/github/stars/tensorflow/federated) | Federated learning framework by Google | Python |
+| [FederatedAI/FATE](https://github.com/FederatedAI/FATE) | ![Stars](https://img.shields.io/github/stars/FederatedAI/FATE) | Federated AI technology engine | Python |
+| [NVIDIA/NVFlare](https://github.com/NVIDIA/NVFlare) | ![Stars](https://img.shields.io/github/stars/NVIDIA/NVFlare) | Federated learning runtime by NVIDIA | Python |
+| [OpenMined/PySyft](https://github.com/OpenMined/PySyft) | ![Stars](https://img.shields.io/github/stars/OpenMined/PySyft) | Open-source federated learning library | Python |
+
+### Privacy-Preserving ML
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [facebookresearch/crypten](https://github.com/facebookresearch/crypten) | ![Stars](https://img.shields.io/github/stars/facebookresearch/crypten) | Secure multi-party computation for ML | Python |
+| [tf-encrypted/tf-encrypted](https://github.com/tf-encrypted/tf-encrypted) | ![Stars](https://img.shields.io/github/stars/tf-encrypted/tf-encrypted) | Encrypted deep learning in TensorFlow | Python |
+
+### Differential Privacy
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [tensorflow/privacy](https://github.com/tensorflow/privacy) | ![Stars](https://img.shields.io/github/stars/tensorflow/privacy) | Differential privacy for TensorFlow | Python |
+| [openmined/dp-dev-examples](https://github.com/openmined/dp-dev-examples) | ![Stars](https://img.shields.io/github/stars/openmined/dp-dev-examples) | Differential privacy examples | Python |
 
 ---
 

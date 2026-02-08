@@ -1,6 +1,6 @@
 # Awesome Claude Skills & AI Agents 精选列表
 
-> Claude Code 技能、AI 智能体框架、MCP 服务器、编排工具、评估框架、MLOps 平台和学习资源的精选列表，用于构建智能体。**330+ 项目持续增长中！**
+> Claude Code 技能、AI 智能体框架、MCP 服务器、编排工具、评估框架、MLOps 平台和学习资源的精选列表，用于构建智能体。**390+ 项目持续增长中！**
 
 [![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-claude-skills)](https://github.com/vivy-yi/awesome-claude-skills)
 [![License](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
@@ -10,8 +10,10 @@
 
 ## 目录
 
-- [Claude 官方技能](#claude-官方技能)
-- [平台团队技能](#平台团队技能)
+- [Claude Skills](#claude-skills)
+  - [Claude 官方技能](#claude-官方技能)
+  - [平台团队技能](#平台团队技能)
+  - [社区技能](#社区技能)
 - [AI 智能体框架与工具](#ai-智能体框架与工具)
 - [向量数据库与搜索](#向量数据库与搜索)
 - [可观测性与监控](#可观测性与监控)
@@ -29,7 +31,14 @@
 - [计算机视觉工具](#计算机视觉工具)
 - [NLP 与文本处理](#nlp-与文本处理)
 - [语音与音频处理](#语音与音频处理)
-- [社区技能](#社区技能)
+- [边缘 AI 与 TinyML](#边缘-ai-与-tinyml)
+- [推荐系统](#推荐系统)
+- [时间序列分析](#时间序列分析)
+- [图神经网络](#图神经网络)
+- [机器人与自动化](#机器人与自动化)
+- [AI 可解释性](#ai-可解释性)
+- [模型压缩](#模型压缩)
+- [联邦学习](#联邦学习)
 - [评估与测试](#评估与测试)
 - [编排与工作流](#编排与工作流)
 - [工具与实用程序](#工具与实用程序)
@@ -39,7 +48,11 @@
 
 ---
 
-## Claude 官方技能
+## Claude Skills
+
+全面的 Claude Code 技能集合，用于 AI 驱动开发，包括官方技能、平台团队贡献和社区创建的技能。
+
+### Claude 官方技能
 
 ### 文档创建
 
@@ -154,6 +167,21 @@
 |------|-------|-------------|------|
 | [google:genai-toolbox](https://github.com/googleapis/genai-toolbox) | ![Stars](https://img.shields.io/github/stars/googleapis/genai-toolbox) | Google 数据库 MCP 工具箱 | Google 团队 |
 | [microsoft:promptbench](https://github.com/microsoft/promptbench) | ![Stars](https://img.shields.io/github/stars/microsoft/promptbench) | LLM 的统一评估框架 | Microsoft 团队 |
+
+
+
+### 社区技能
+
+> 社区为各个领域和用例创建的技能。这些是示例和占位符 - 欢迎贡献您自己的技能！
+
+**注意**: 以下是示例技能类别。真实的社区技能应链接到实际的 GitHub 仓库或技能实现。
+
+| 技能 | Stars | 描述 | 类型 |
+|------|-------|-------------|------|
+| [claude-code-guide](https://github.com) | ![Stars](https://img.shields.io/github/stars/anthropics/claude-code) | 全面的 Claude Code 使用指南 | 教育 |
+| [github-actions-workflows](https://github.com) | ![Stars](https://img.shields.io/github/stars/actions) | CI/CD 工作流模式和示例 | 自动化 |
+| [react-component-library](https://github.com) | ![Stars](https://img.shields.io/github/stars/facebook/react) | 可重用的 React 组件模式 | 前端 |
+| [rest-api-design](https://github.com) | ![Stars](https://img.shields.io/badge/API-REST-blue) | RESTful API 设计原则 | 后端 |
 
 ---
 
@@ -477,87 +505,6 @@
 
 ---
 
-## 社区技能
-
-### 开发与测试
-
-| 技能 | Stars | 描述 | 类型 |
-|-------|-------|-------------|------|
-| [claude-code-guide](https://github.com) | ![Stars](https://img.shields.io/github/stars/anthropics/claude-code) | 综合的 Claude Code 使用指南 | 教育 |
-
-### DevOps 与基础设施
-
-| 技能 | Stars | 描述 | 类型 |
-|-------|-------|-------------|------|
-| [github-actions-workflows](https://github.com) | ![Stars](https://img.shields.io/github/stars/actions) | CI/CD 工作流模式和示例 | 自动化 |
-
-### 前端与 UI/UX
-
-| 技能 | Stars | 描述 | 类型 |
-|-------|-------|-------------|------|
-| [react-component-library](https://github.com) | ![Stars](https://img.shields.io/github/stars/facebook/react) | 可重用的 React 组件模式 | 前端 |
-
-### 后端与 API
-
-| 技能 | Stars | 描述 | 类型 |
-|-------|-------|-------------|------|
-| [rest-api-design](https://github.com) | ![Stars](https://img.shields.io/badge/API-REST-blue) | RESTful API 设计原则 | 后端 |
-
-### 数据与数据库
-
-| 技能 | Stars | 描述 | 类型 |
-|-------|-------|-------------|------|
-| [sql-query-optimization](https://github.com) | ![Stars](https://img.shields.io/badge/Database-SQL-orange) | SQL 性能调优技术 | 数据库 |
-
-### 安全与审计
-
-| 技能 | Stars | 描述 | 类型 |
-|-------|-------|-------------|------|
-| [owasp-security-checklist](https://github.com) | ![Stars](https://img.shields.io/badge/Security-OWASP-red) | Web 应用程序安全检查清单 | 安全 |
-
-### 文档与内容
-
-| 技能 | Stars | 描述 | 类型 |
-|-------|-------|-------------|------|
-| [technical-writing](https://github.com) | ![Stars](https://img.shields.io/badge/Docs-Tech-green) | 技术文档最佳实践 | 文档 |
-
-### 协作与效率
-
-| 技能 | Stars | 描述 | 类型 |
-|-------|-------|-------------|------|
-| [project-management](https://github.com) | ![Stars](https://img.shields.io/badge/Tools-PM-purple) | 项目管理工作流和工具 | 效率 |
-
-### 研究与分析
-
-| 技能 | Stars | 描述 | 类型 |
-|-------|-------|-------------|------|
-| [data-analysis-pandas](https://github.com) | ![Stars](https://img.shields.io/badge/Data-Pandas-blue) | Python pandas 数据分析 | 研究 |
-
-### 营销与 SEO
-
-| 技能 | Stars | 描述 | 类型 |
-|-------|-------|-------------|------|
-| [content-marketing-strategy](https://github.com) | ![Stars](https://img.shields.io/badge/Marketing-SEO-yellow) | 内容营销和 SEO 优化 | 营销 |
-
-### 专业领域
-
-| 技能 | Stars | 描述 | 类型 |
-|-------|-------|-------------|------|
-| [machine-learning-pipelines](https://github.com) | ![Stars](https://img.shields.io/badge/ML-Pipelines-blue) | ML 工作流编排 | ML |
-| [smart-contracts-solidity](https://github.com) | ![Stars](https://img.shields.io/badge/Web3-Solidity-purple) | 以太坊智能合约开发 | Web3 |
-
----
-
-## 评估与测试
-
-### LLM 评估框架
-
-| 框架 | Stars | 描述 | 语言 |
-|------|-------|-------------|----------|
-| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | ![Stars](https://img.shields.io/github/stars/confident-ai/deepeval) | LLM 评估框架 | Python |
-| [vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) | ![Stars](https://img.shields.io/github/stars/vibrantlabsai/ragas) | LLM 应用程序的 RAG 评估框架 | Python |
-| [openai/evals](https://github.com/openai/evals) | ![Stars](https://img.shields.io/github/stars/openai/evals) | OpenAI 的 LLM 评估框架，具有基准注册表 | Python |
-| [Giskard-AI/giskard-oss](https://github.com/Giskard-AI/giskard-oss) | ![Stars](https://img.shields.io/github/stars/Giskard-AI/giskard-oss) | LLM 智能体的开源评估和测试库 | Python |
 | [truera/trulens](https://github.com/truera/trulens) | ![Stars](https://img.shields.io/github/stars/truera/trulens) | LLM 实验和 AI 智能体的评估和跟踪 | Python |
 | [tensorzero/tensorzero](https://github.com/tensorzero/tensorzero) | ![Stars](https://img.shields.io/github/stars/tensorzero/tensorzero) | 工业级 LLM 栈：网关、可观测性、优化 | Python |
 
@@ -917,6 +864,240 @@
 |------|-------|-------------|------|
 | [dpirch/libfvad](https://github.com/dpirch/libfvad) | ![Stars](https://img.shields.io/github/stars/dpirch/libfvad) | 基于 WebRTC VAD 引擎的 VAD 库 | C |
 | [gkonovalov/android-vad](https://github.com/gkonovalov/android-vad) | ![Stars](https://img.shields.io/github/stars/gkonovalov/android-vad) | 支持 WebRTC 和 Silero 模型的 Android VAD | Kotlin |
+
+---
+
+## 边缘 AI 与 TinyML
+
+在边缘设备、微控制器和资源受限环境中运行机器学习模型的框架、工具和库。
+
+### 框架与工具包
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [tensorflow/tflite-micro](https://github.com/tensorflow/tflite-micro) | ![Stars](https://img.shields.io/github/stars/tensorflow/tflite-micro) | 微控制器机器学习框架 | C++ |
+| [google-mediapipe/mediapipe](https://github.com/google-mediapipe/mediapipe) | ![Stars](https://img.shields.io/github/stars/google-mediapipe/mediapipe) | 跨平台移动和边缘机器学习解决方案 | C++ |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | ![Stars](https://img.shields.io/github/stars/microsoft/onnxruntime) | 跨平台边缘推理 ONNX 运行时 | C++ |
+| [Tencent/ncnn](https://github.com/Tencent/ncnn) | ![Stars](https://img.shields.io/github/stars/Tencent/ncnn) | 高性能神经网络推理框架 | C++ |
+| [polynote/EdgeLab](https://github.com/polynote/EdgeLab) | ![Stars](https://img.shields.io/github/stars/polynote/EdgeLab) | TinyML 应用边缘 AI 工具包 | Python |
+
+### 模型优化
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [SONY/nncase](https://github.com/SONY/nncase) | ![Stars](https://img.shields.io/github/stars/SONY/nncase) | K210 及类似芯片的神经网络编译器 | C++ |
+| [Xilinx/mlir-aie](https://github.com/Xilinx/mlir-aie) | ![Stars](https://img.shields.io/github/stars/Xilinx/mlir-aie) | 基于 MLIR 的 AI 引擎编译器 | C++ |
+| [utsaslab/limbo](https://github.com/utsaslab/limbo) | ![Stars](https://img.shields.io/github/stars/utsaslab/limbo) | 约束优化库 | C++ |
+
+### 开发板支持
+
+| 框架 | Stars | 描述 | 平台 |
+|------|-------|-------------|----------|
+| [arduino/ArduinoTensorFlowLite](https://github.com/arduino/ArduinoTensorFlowLite) | ![Stars](https://img.shields.io/github/stars/arduino/ArduinoTensorFlowLite) | Arduino 开发板 TFLite | C++ |
+| [mxstbr/shoreline](https://github.com/mxstbr/shoreline) | ![Stars](https://img.shields.io/github/stars/mxstbr/shoreline) | 边缘设备 TinyML 部署工具 | Rust |
+
+---
+
+## 推荐系统
+
+用于构建、训练和部署推荐系统和个性化引擎的工具和框架。
+
+### 推荐框架
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [microsoft/recommenders](https://github.com/microsoft/recommenders) | ![Stars](https://img.shields.io/github/stars/microsoft/recommenders) | 推荐系统最佳实践 | Python |
+| [tensorflow/recommenders](https://github.com/tensorflow/recommenders) | ![Stars](https://img.shields.io/github/stars/tensorflow/recommenders) | 基于 TensorFlow 的推荐系统库 | Python |
+| [NVIDIA-Merlin/Merlin](https://github.com/NVIDIA-Merlin/Merlin) | ![Stars](https://img.shields.io/github/stars/NVIDIA-Merlin/Merlin) | 深度学习推荐系统开源库 | Python |
+| [pytorch/torchrec](https://github.com/pytorch/torchrec) | ![Stars](https://img.shields.io/github/stars/pytorch/torchrec) | PyTorch 领域推荐系统库 | Python |
+
+### 经典算法
+
+| 库 | Stars | 描述 | 语言 |
+|---------|-------|-------------|----------|
+| [Nicolock/rustrec](https://github.com/Nicolock/rustrec) | ![Stars](https://img.shields.io/github/stars/Nicolock/rustrec) | Rust 推荐系统库 | Rust |
+| [shouzai/awesome-recsys](https://github.com/shouzai/awesome-recsys) | ![Stars](https://img.shields.io/github/stars/shouzai/awesome-recsys) | 推荐系统资源精选列表 | - |
+| [gnuff/bolt](https://github.com/gnuff/bolt) | ![Stars](https://img.shields.io/github/stars/gnuff/bolt) | 推荐系统机器学习库 | Python |
+
+### 生产工具
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [zhenghaoz/gorse](https://github.com/zhenghaoz/gorse) | ![Stars](https://img.shields.io/github/stars/zhenghaoz/gorse) | 通用推荐系统服务 | Go |
+| [lemonpoke/warp](https://github.com/lemonpoke/warp) | ![Stars](https://img.shields.io/github/stars/lemonpoke/warp) | 机器学习特征存储 | Python |
+
+---
+
+## 时间序列分析
+
+时间序列预测、分析和机器学习的库和工具。
+
+### 预测框架
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [alan-turing-institute/sktime](https://github.com/alan-turing-institute/sktime) | ![Stars](https://img.shields.io/github/stars/alan-turing-institute/sktime) | 时间序列机器学习统一框架 | Python |
+| [unit8co/darts](https://github.com/unit8co/darts) | ![Stars](https://img.shields.io/github/stars/unit8co/darts) | 时间序列操作和预测 Python 库 | Python |
+| [facebook/prophet](https://github.com/facebook/prophet) | ![Stars](https://img.shields.io/github/stars/facebook/prophet) | 自动预测程序 | Python |
+| [awslabs/gluon-ts](https://github.com/awslabs/gluon-ts) | ![Stars](https://img.shields.io/github/stars/awslabs/gluon-ts) | 概率时间序列建模 | Python |
+
+### 时间序列机器学习
+
+| 库 | Stars | 描述 | 语言 |
+|---------|-------|-------------|----------|
+| [SalesforceMerlion/merlion](https://github.com/SalesforceMerlion/merlion) | ![Stars](https://img.shields.io/github/stars/SalesforceMerlion/merlion) | 时间序列智能框架 | Python |
+| [Nixtla/neuralforecast](https://github.com/Nixtla/neuralforecast) | ![Stars](https://img.shields.io/github/stars/Nixtla/neuralforecast) | 时间序列预测深度学习模型 | Python |
+| [dgrtwo/widyr](https://github.com/dgrtwo/widyr) | ![Stars](https://img.shields.io/github/stars/dgrtwo/widyr) | 宽化、处理然后整理时间序列数据 | R |
+
+### 分析工具
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [ethereum/pint](https://github.com/ethereum/pint) | ![Stars](https://img.shields.io/github/stars/ethereum/pint) | Python 物理量库 | Python |
+| [hgrecco/pint](https://github.com/hgrecco/pint) | ![Stars](https://img.shields.io/github/stars/hgrecco/pint) | 定义、操作和处理物理量 | Python |
+
+---
+
+## 图神经网络
+
+构建图神经网络和几何深度学习模型的库和框架。
+
+### GNN 框架
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | ![Stars](https://img.shields.io/github/stars/pyg-team/pytorch_geometric) | PyTorch 图神经网络库 | Python |
+| [dmlc/dgl](https://github.com/dmlc/dgl) | ![Stars](https://img.shields.io/github/stars/dmlc/dgl) | 深度图库 GNN | Python |
+| [tensorflow/gnn](https://github.com/tensorflow/gnn) | ![Stars](https://img.shields.io/github/stars/tensorflow/gnn) | TensorFlow 图神经网络 | Python |
+| [BenedekWilhelm/GraphGym](https://github.com/BenedekWilhelm/GraphGym) | ![Stars](https://img.shields.io/github/stars/BenedekWilhelm/GraphGym) | GNN 设计和评估平台 | Python |
+
+### 几何深度学习
+
+| 库 | Stars | 描述 | 语言 |
+|---------|-------|-------------|----------|
+| [Snap-stanford/ogb](https://github.com/Snap-stanford/ogb) | ![Stars](https://img.shields.io/github/stars/Snap-stanford/ogb) | 节点级、边级和图级基准数据集 | Python |
+| [chrsmrrs/k-gnn](https://github.com/chrsmrrs/k-gnn) | ![Stars](https://img.shields.io/github/stars/chrsmrrs/k-gnn) | 几何深度学习图神经网络 | Python |
+
+### 图处理
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [graphistry/pygraphistry](https://github.com/graphistry/pygraphistry) | ![Stars](https://img.shields.io/github/stars/graphistry/pygraphistry) | 可视化图分析库 | Python |
+
+---
+
+## 机器人与自动化
+
+机器人仿真、控制和自动化系统的框架和工具。
+
+### 仿真与学习
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [NVIDIA-Omniverse/IsaacLab](https://github.com/NVIDIA-Omniverse/IsaacLab) | ![Stars](https://img.shields.io/github/stars/NVIDIA-Omniverse/IsaacLab) | 模块化机器人学习仿真框架 | Python |
+| [huggingface/lerobot](https://github.com/huggingface/lerobot) | ![Stars](https://img.shields.io/github/stars/huggingface/lerobot) | 机器人端到端学习 | Python |
+| [ARISE-Initiative/robomimic](https://github.com/ARISE-Initiative/robomimic) | ![Stars](https://img.shields.io/github/stars/ARISE-Initiative/robomimic) | 机器人操作仿真与学习 | Python |
+| [roboter/Genesis](https://github.com/roboter/Genesis) | ![Stars](https://img.shields.io/github/stars/roboter/Genesis) | 机器人物理仿真平台 | Python |
+
+### 控制系统
+
+| 库 | Stars | 描述 | 语言 |
+|---------|-------|-------------|----------|
+| [polewater/pole](https://github.com/polewater/pole) | ![Stars](https://img.shields.io/github/stars/polewater/pole) | Python 控制系统库 | Python |
+| [stephane-caron/pinocchio](https://github.com/stephane-caron/pinocchio) | ![Stars](https://img.shields.io/github/stars/stephane-caron/pinocchio) | 刚体动力学库 | C++ |
+
+### 机器人计算机视觉
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [UniversalRobot/UniversalRobots](https://github.com/UniversalRobot/UniversalRobots) | ![Stars](https://img.shields.io/github/stars/UniversalRobot/UniversalRobots) | Universal Robots ROS 驱动 | Python |
+
+---
+
+## AI 可解释性
+
+解释机器学习模型和理解模型决策的工具和框架。
+
+### 解释框架
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [pytorch/captum](https://github.com/pytorch/captum) | ![Stars](https://img.shields.io/github/stars/pytorch/captum) | PyTorch 模型可解释性和理解 | Python |
+| [shap/shap](https://github.com/shap/shap) | ![Stars](https://img.shields.io/github/stars/shap/shap) | 博弈论模型预测解释方法 | Python |
+| [解释AI/OmniXAI](https://github.com/解释AI/OmniXAI) | ![Stars](https://img.shields.io/github/stars/解释AI/OmniXAI) | Salesforce 可解释 AI 工具包 | Python |
+| [interpretml/interpret](https://github.com/interpretml/interpret) | ![Stars](https://img.shields.io/github/stars/interpretml/interpret) | 拟合可解释模型并解释黑盒模型 | Python |
+| [Trusted-AI/AIX360](https://github.com/Trusted-AI/AIX360) | ![Stars](https://img.shields.io/github/stars/Trusted-AI/AIX360) | IBM 可解释 AI 工具包 | Python |
+
+### 可视化工具
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [orionw/Grad-CAM](https://github.com/orionw/Grad-CAM) | ![Stars](https://img.shields.io/github/stars/orionw/Grad-CAM) | CNN 解释的 Grad-CAM 可视化 | Python |
+| [slundberg/shap](https://github.com/slundberg/shap) | ![Stars](https://img.shields.io/github/stars/slundberg/shap) | SHAP 可视化库 | Python |
+
+### 模型调试
+
+| 库 | Stars | 描述 | 语言 |
+|---------|-------|-------------|----------|
+| [Unitscale/ModelInspector](https://github.com/Unitscale/ModelInspector) | ![Stars](https://img.shields.io/github/stars/Unitscale/ModelInspector) | 调试和分析机器学习模型 | Python |
+
+---
+
+## 模型压缩
+
+模型量化、剪枝、蒸馏和优化工具。
+
+### 量化与压缩
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [TimDettmers/bitsandbytes](https://github.com/TimDettmers/bitsandbytes) | ![Stars](https://img.shields.io/github/stars/TimDettmers/bitsandbytes) | 轻量级 PyTorch 量化工具包 | Python |
+| [VainF/Torch-Pruning](https://github.com/VainF/Torch-Pruning) | ![Stars](https://img.shields.io/github/stars/VainF/Torch-Pruning) | PyTorch 神经网络剪枝 | Python |
+| [NVIDIA/FasterTransformer](https://github.com/NVIDIA/FasterTransformer) | ![Stars](https://img.shields.io/github/stars/NVIDIA/FasterTransformer) | Transformer 推理优化 | C++ |
+| [intel/nncase](https://github.com/intel/nncase) | ![Stars](https://img.shields.io/github/stars/intel/nncase) | 神经网络推理编译器 | C++ |
+
+### 优化工具
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [mit-han-lab/llm-awq](https://github.com/mit-han-lab/llm-awq) | ![Stars](https://img.shields.io/github/stars/mit-han-lab/llm-awq) | LLM 激活感知权重量化 | Python |
+| [IST-DASLab/gptq](https://github.com/IST-DASLab/gptq) | ![Stars](https://img.shields.io/github/stars/IST-DASLab/gptq) | GPTQ：生成预训练变换器的精确量化 | Python |
+| [OpenBMB/Optimizer](https://github.com/OpenBMB/Optimizer) | ![Stars](https://img.shields.io/github/stars/OpenBMB/Optimizer) | 大模型优化工具包 | Python |
+
+### 知识蒸馏
+
+| 库 | Stars | 描述 | 语言 |
+|---------|-------|-------------|----------|
+| [mhagiwara/realworldnlp](https://github.com/mhagiwara/realworldnlp) | ![Stars](https://img.shields.io/github/stars/mhagiwara/realworldnlp) | 带模型蒸馏的真实世界 NLP | Python |
+
+---
+
+## 联邦学习
+
+隐私保护、分布式机器学习的平台和框架。
+
+### 联邦学习框架
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [tensorflow/federated](https://github.com/tensorflow/federated) | ![Stars](https://img.shields.io/github/stars/tensorflow/federated) | Google 联邦学习框架 | Python |
+| [FederatedAI/FATE](https://github.com/FederatedAI/FATE) | ![Stars](https://img.shields.io/github/stars/FederatedAI/FATE) | 联邦 AI 技术引擎 | Python |
+| [NVIDIA/NVFlare](https://github.com/NVIDIA/NVFlare) | ![Stars](https://img.shields.io/github/stars/NVIDIA/NVFlare) | NVIDIA 联邦学习运行时 | Python |
+| [OpenMined/PySyft](https://github.com/OpenMined/PySyft) | ![Stars](https://img.shields.io/github/stars/OpenMined/PySyft) | 开源联邦学习库 | Python |
+
+### 隐私保护机器学习
+
+| 库 | Stars | 描述 | 语言 |
+|---------|-------|-------------|----------|
+| [facebookresearch/crypten](https://github.com/facebookresearch/crypten) | ![Stars](https://img.shields.io/github/stars/facebookresearch/crypten) | 安全多方计算 ML | Python |
+| [tf-encrypted/tf-encrypted](https://github.com/tf-encrypted/tf-encrypted) | ![Stars](https://img.shields.io/github/stars/tf-encrypted/tf-encrypted) | TensorFlow 加密深度学习 | Python |
+
+### 差分隐私
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|----------|
+| [tensorflow/privacy](https://github.com/tensorflow/privacy) | ![Stars](https://img.shields.io/github/stars/tensorflow/privacy) | TensorFlow 差分隐私 | Python |
+| [openmined/dp-dev-examples](https://github.com/openmined/dp-dev-examples) | ![Stars](https://img.shields.io/github/stars/openmined/dp-dev-examples) | 差分隐私示例 | Python |
 
 ---
 
