@@ -1,0 +1,60 @@
+name: Generate Repository Stats
+
+on:
+  schedule:
+    # Run every Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  stats:
+    name: Generate project statistics
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract GitHub links
+        id: extract-links
+        run: |
+          # Extract all GitHub repository links from README
+          grep -oP 'https://github\.com/[^/\)]+/[^/\)]+' README.md | sort -u > /tmp/repos.txt
+          TOTAL=$(wc -l < /tmp/repos.txt)
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
+
+      - name: Check repository status
+        id: check-repos
+        run: |
+          echo "# Repository Statistics Report" > stats_report.md
+          echo "" >> stats_report.md
+          echo "**Generated:** $(date +'%Y-%m-%d %H:%M:%S UTC')" >> stats_report.md
+          echo "" >> stats_report.md
+          echo "## Summary" >> stats_report.md
+          echo "" >> stats_report.md
+          echo "- **Total repositories listed:** ${{ steps.extract-links.outputs.total }}" >> stats_report.md
+          echo "" >> stats_report.md
+          echo "## Category Breakdown" >> stats_report.md
+          echo "" >> stats_report.md
+
+          # Count projects by category
+          echo "Official Claude Skills: $(grep -c "## Official Claude Skills" README.md || echo 0)" >> stats_report.md
+          echo "Skills by Platform Teams: $(grep -c "## Skills by Platform Teams" README.md || echo 0)" >> stats_report.md
+          echo "Agent Frameworks: $(grep -c "## Agent Frameworks" README.md || echo 0)" >> stats_report.md
+          echo "Community Skills: $(grep -c "## Community Skills" README.md || echo 0)" >> stats_report.md
+          echo "Orchestration: $(grep -c "## Orchestration" README.md || echo 0)" >> stats_report.md
+          echo "Tooling: $(grep -c "## Tooling" README.md || echo 0)" >> stats_report.md
+          echo "Learning Resources: $(grep -c "## Learning Resources" README.md || echo 0)" >> stats_report.md
+          echo "" >> stats_report.md
+
+      - name: Display report
+        run: cat stats_report.md
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-stats
+          path: stats_report.md
+          retention-days: 90

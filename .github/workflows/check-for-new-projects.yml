@@ -1,0 +1,95 @@
+name: Check for New Projects
+
+on:
+  schedule:
+    # Run every Friday at 00:00 UTC
+    - cron: '0 0 * * 5'
+  workflow_dispatch:
+
+jobs:
+  discover-claude-skills:
+    name: Search for new Claude skills
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Search for Claude skills
+        id: search-claude
+        run: |
+          echo "## 🔍 New Claude Skills Candidates" > new_skills.md
+          echo "" >> new_skills.md
+          echo "**Generated:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> new_skills.md
+          echo "" >> new_skills.md
+          echo "Found the following potentially new Claude skills and agent tools:" >> new_skills.md
+          echo "" >> new_skills.md
+
+          # Search for Claude-related repositories
+          gh search repos "claude skills" --stars ">=10" --limit 30 --json name,owner,name,description,stargazers,url,updatedAt --jq '.[] | "- [\(.owner.login)/\(.name)](\(.url)) - \(.description) (⭐ \(.stargazers totalCount))"' >> new_skills.md || echo "No results for 'claude skills'" >> new_skills.md
+
+      - name: Search for AI agent frameworks
+        id: search-agents
+        run: |
+          echo "" >> new_skills.md
+          echo "## 🤖 AI Agent Frameworks" >> new_skills.md
+          echo "" >> new_skills.md
+          gh search repos "agent framework" --stars ">=50" --limit 20 --json name,owner,name,description,stargazers,url,updatedAt --jq '.[] | "- [\(.owner.login)/\(.name)](\(.url)) - \(.description) (⭐ \(.stargazers totalCount))"' >> new_skills.md || echo "No results for 'agent framework'" >> new_skills.md
+
+      - name: Search for LangChain projects
+        id: search-langchain
+        run: |
+          echo "" >> new_skills.md
+          echo "## 🔗 LangChain Projects" >> new_skills.md
+          echo "" >> new_skills.md
+          gh search repos "langchain" --stars ">=20" --limit 20 --json name,owner,name,description,stargazers,url,updatedAt --jq '.[] | "- [\(.owner.login)/\(.name)](\(.url)) - \(.description) (⭐ \(.stargazers totalCount))"' >> new_skills.md || echo "No results for 'langchain'" >> new_skills.md
+
+      - name: Search for multi-agent systems
+        id: search-multiagent
+        run: |
+          echo "" >> new_skills.md
+          echo "" >> new_skills.md
+          echo "## 👥 Multi-Agent Systems" >> new_skills.md
+          echo "" >> new_skills.md
+          gh search repos "multi-agent" --stars ">=10" --limit 15 --json name,owner,name,description,stargazers,url,updatedAt --jq '.[] | "- [\(.owner.login)/\(.name)](\(.url)) - \(.description) (⭐ \(.stargazers totalCount))"' >> new_skills.md || echo "No results for 'multi-agent'" >> new_skills.md
+
+      - name: Create issue with candidates
+        if: hashFiles('new_skills.md') != ''
+        run: |
+          cat new_skills.md
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: new-project-candidates
+          path: new_skills.md
+          retention-days: 30
+
+  discover-awesome-lists:
+    name: Check for new awesome lists
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Search for awesome agent lists
+        run: |
+          echo "## 📋 New Awesome Lists" > new_lists.md
+          echo "" >> new_lists.md
+          echo "**Generated:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> new_lists.md
+          echo "" >> new_skills.md
+          gh search repos "awesome agents" --stars ">=10" --limit 20 --json name,owner,name,description,stargazers,url --jq '.[] | "- [\(.owner.login)/\(.name)](\(.url)) - \(.description) (⭐ \(.stargazers.totalCount))"' >> new_lists.md || echo "No new awesome lists found" >> new_lists.md
+
+      - name: Upload awesome lists
+        uses: actions/upload-artifact@v4
+        with:
+          name: new-awesome-lists
+          path: new_lists.md
+          retention-days: 30
