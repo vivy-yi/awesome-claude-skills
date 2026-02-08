@@ -1,6 +1,6 @@
 # Awesome Claude Skills & AI Agents
 
-> Curated list of the best Claude Code skills, AI agent frameworks, MCP servers, orchestration tools, evaluation frameworks, and learning resources for building intelligent agents. **100+ projects and growing!**
+> Curated list of the best Claude Code skills, AI agent frameworks, MCP servers, orchestration tools, evaluation frameworks, and learning resources for building intelligent agents. **150+ projects and growing!**
 
 [![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-claude-skills)](https://github.com/vivy-yi/awesome-claude-skills)
 [![License](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
@@ -11,6 +11,11 @@
 - [Official Claude Skills](#official-claude-skills)
 - [Skills by Platform Teams](#skills-by-platform-teams)
 - [Agent Frameworks & Tools](#agent-frameworks--tools)
+- [Vector Databases & Search](#vector-databases--search)
+- [Observability & Monitoring](#observability--monitoring)
+- [Prompt Engineering Tools](#prompt-engineering-tools)
+- [RAG Frameworks](#rag-frameworks)
+- [Agent Deployment & Serving](#agent-deployment--serving)
 - [MCP Servers](#mcp-servers)
 - [Community Skills](#community-skills)
 - [Evaluation & Testing](#evaluation--testing)
@@ -165,6 +170,148 @@
 |------|-------|-------------|------|
 | [openai/openai-openapi](https://github.com/openai/openai-openapi) | ![Stars](https://img.shields.io/github/stars/openai/openai-openapi) | OpenAI API specification | Documentation |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/servers) | Official MCP server implementations | Protocol |
+
+---
+
+## Vector Databases & Search
+
+### Vector Databases
+
+| Database | Stars | Description | Language |
+|----------|-------|-------------|----------|
+| [weaviate/weaviate](https://github.com/weaviate/weaviate) | ![Stars](https://img.shields.io/github/stars/weaviate/weaviate) | Open-source vector search engine | Go |
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) | ![Stars](https://img.shields.io/github/stars/chroma-core/chroma) | Open-source embedding database | Python |
+| [milvus-io/milvus](https://github.com/milvus-io/milvus) | ![Stars](https://img.shields.io/github/stars/milvus-io/milvus) | Vector database for AI applications | Go |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | ![Stars](https://img.shields.io/github/stars/qdrant/qdrant) | High-performance vector similarity search engine | Rust |
+| [zilliztech/vectordb](https://github.com/zilliztech/vectordb) | ![Stars](https://img.shields.io/github/stars/zilliztech/vectordb) | Vector database built on Milvus | Go |
+| [pgvector/pgvector](https://github.com/pgvector/pgvector) | ![Stars](https://img.shields.io/github/stars/pgvector/pgvector) | Vector similarity search for PostgreSQL | C |
+| [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | ![Stars](https://img.shields.io/github/stars/facebookresearch/faiss) | Efficient similarity search and clustering | C++ |
+| [xingyu-chen/faiss-rs](https://github.com/xingyu-chen/faiss-rs) | ![Stars](https://img.shields.io/github/stars/xingyu-chen/faiss-rs) | Vector search in Rust with FAISS | Rust |
+| [eclipse/deepravr](https://github.com/eclipse/deepravr) | ![Stars](https://img.shields.io/github/stars/eclipse/deepravr) | Vector search for language models | Python |
+| [sajustad/pinecone-client-ts](https://github.com/sajustad/pinecone-client-ts) | ![Stars](https://img.shields.io/github/stars/sajustad/pinecone-client-ts) | TypeScript client for Pinecone | TypeScript |
+| [supabase/vecs](https://github.com/supabase/vecs) | ![Stars](https://img.shields.io/github/stars/supabase/vecs) | Vector database for Supabase | Python |
+| [eidinger/f4vector-search](https://github.com/eidinger/f4vector-search) | ![Stars](https://img.shields.io/github/stars/eidinger/f4vector-search) | Facebook FAISS wrapper | Python |
+| [marqo-ai/marqo](https://github.com/marqo-ai/marqo) | ![Stars](https://img.shields.io/github/stars/marqo-ai/marqo) | Vector search + tensors for information retrieval | C++ |
+| [activeloopai/vdk](https://github.com/activeloopai/vdk) | ![Stars](https://img.shields.io/github/stars/activeloopai/vdk) | Vector database development kit | C++ |
+| [ashvardanian/usearch](https://github.com/ashvardanian/usearch) | ![Stars](https://img.shields.io/github/stars/ashvardanian/usearch) | Smallest & fastest vector search engine | C++ |
+| [jina-ai/vectordb](https://github.com/jina-ai/vectordb) | ![Stars](https://img.shields.io/github/stars/jina-ai/vectordb) | Vector database for edge deployments | Python |
+
+### Vector Search Libraries
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [nmslib/hnswlib](https://github.com/nmslib/hnswlib) | ![Stars](https://img.shields.io/github/stars/nmslib/hnswlib) | Fast approximate nearest neighbor search | C++ |
+| [spotify/annoy](https://github.com/spotify/annoy) | ![Stars](https://img.shields.io/github/stars/spotify/annoy) | Approximate nearest neighbors in C++ | C++ |
+| [mozilla/scribe](https://github.com/mozilla/scribe) | ![Stars](https://img.shields.io/github/stars/mozilla/scribe) | Vector search for language models | Python |
+| [microsoft/SPTAG](https://github.com/microsoft/SPTAG) | ![Stars](https://img.shields.io/github/stars/microsoft/SPTAG) | Distributed approximate nearest neighbor search | C++ |
+
+---
+
+## Observability & Monitoring
+
+### LLM Observability Platforms
+
+| Platform | Stars | Description | Language |
+|----------|-------|-------------|----------|
+| [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | ![Stars](https://img.shields.io/github/stars/Arize-ai/phoenix) | Open-source LLM tracing & evaluation with OpenTelemetry | Python |
+| [langfuse/langfuse](https://github.com/langfuse/langfuse) | ![Stars](https://img.shields.io/github/stars/langfuse/langfuse) | Open source LLM engineering platform with observability | TypeScript |
+| [Helicone/helicone](https://github.com/Helicone/helicone) | ![Stars](https://img.shields.io/github/stars/Helicone/helicone) | Open-source LLM observability & AI gateway | TypeScript |
+| [langchain-ai/langsmith](https://github.com/langchain-ai/langsmith) | ![Stars](https://img.shields.io/github/stars/langchain-ai/langsmith) | LangChain's unified observability & evaluation platform | Python |
+| [traceloop/openllmetry](https://github.com/traceloop/openllmetry) | ![Stars](https://img.shields.io/github/stars/traceloop/openllmetry) | OpenTelemetry-based observability for LLMs | Python |
+| [weights-biases/weave](https://github.com/weights-biases/weave) | ![Stars](https://img.shields.io/github/stars/weights-biases/weave) | Weights & Biases toolkit for LLM monitoring | Python |
+| [braintrustdata braintrust](https://github.com/braintrustdata/braintrust) | ![Stars](https://img.shields.io/github/stars/braintrustdata/braintrust) | Evaluate, debug, and regress test LLM applications | TypeScript |
+| [convectio/promptlayer](https://github.com/convectio/promptlayer) | ![Stars](https://img.shields.io/github/stars/convectio/promptlayer) | Prompt management and observability platform | Python |
+| [log10ai/log10](https://github.com/log10ai/log10) | ![Stars](https://img.shields.io/github/stars/log10ai/log10) | Observability and debugging for LLM applications | Python |
+| [agentops/agentops](https://github.com/agentops/agentops) | ![Stars](https://img.shields.io/github/stars/agentops/agentops) | AI agent monitoring and evaluation platform | Python |
+
+### Tracing & Debugging Tools
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [emcie-co/emcie](https://github.com/emcie-co/emcie) | ![Stars](https://img.shields.io/github/stars/emcie-co/emcie) | Tracing and debugging for AI applications | TypeScript |
+| [openlit/openlit](https://github.com/openlit/openlit) | ![Stars](https://img.shields.io/github/stars/openlit/openlit) | Open-source observability for LLM and vector DB | Python |
+
+---
+
+## Prompt Engineering Tools
+
+### Prompt Management Platforms
+
+| Platform | Stars | Description | Language |
+|----------|-------|-------------|----------|
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | ![Stars](https://img.shields.io/github/stars/promptfoo/promptfoo) | Test prompts, agents, RAGs with red teaming | TypeScript |
+| [microsoft/prompty](https://github.com/microsoft/prompty) | ![Stars](https://img.shields.io/github/stars/microsoft/prompty) | Microsoft's asset format for creating, managing prompts | Python |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | ![Stars](https://img.shields.io/github/stars/deepset-ai/haystack) | Prompt management and NLP pipeline framework | Python |
+| [tel.ai/agent-prod](https://github.com/tel.ai/agent-prod) | ![Stars](https://img.shields.io/github/stars/tel.ai/agent-prod) | Prompt engineering and agent production toolkit | Python |
+| [agenta-ai/agenta](https://github.com/agenta-ai/agenta) | ![Stars](https://img.shields.io/github/stars/agenta-ai/agenta) | Prompt engineering toolkit for LLM apps | Python |
+| [walli-ai/walli](https://github.com/walli-ai/walli) | ![Stars](https://img.shields.io/github/stars/walli-ai/walli) | Collaborative prompt management platform | Python |
+| [promptslab/PromptEngine](https://github.com/promptslab/PromptEngine) | ![Stars](https://img.shields.io/github/stars/promptslab/PromptEngine) | Advanced prompt engineering library | Python |
+| [openprompt/openprompt](https://github.com/openprompt/openprompt) | ![Stars](https://img.shields.io/github/stars/openprompt/openprompt) | PyTorch toolkit for prompt learning | Python |
+| [microsoft/promptbench](https://github.com/microsoft/promptbench) | ![Stars](https://img.shields.io/github/stars/microsoft/promptbench) | Unified evaluation framework for LLM prompts | Python |
+| [dottxt-ai/outlines](https://github.com/dottxt-ai/outlines) | ![Stars](https://img.shields.io/github/stars/dottxt-ai/outlines) | Structured generation and prompt engineering | Python |
+
+### Prompt Testing & Evaluation
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [patrickkids/prompt-test](https://github.com/patrickkids/prompt-test) | ![Stars](https://img.shields.io/github/stars/patrickkids/prompt-test) | Unit testing framework for prompts | Python |
+| [checkmeg/prompt-eval](https://github.com/checkmeg/prompt-eval) | ![Stars](https://img.shields.io/github/stars/checkmeg/prompt-eval) | Prompt evaluation and comparison toolkit | Python |
+
+---
+
+## RAG Frameworks
+
+### RAG Orchestration
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | ![Stars](https://img.shields.io/github/stars/run-llama/llama_index) | Data framework for RAG applications | Python |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | ![Stars](https://img.shields.io/github/stars/langchain-ai/langchain) | RAG implementation framework with retrievers | Python |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | ![Stars](https://img.shields.io/github/stars/deepset-ai/haystack) | Production-ready RAG pipelines | Python |
+| [weaviate/Verba](https://github.com/weaviate/Verba) | ![Stars](https://img.shields.io/github/stars/weaviate/Verba) | RAG-based chatbot with Weaviate | Python |
+| [cognee-ai/cognee](https://github.com/cognee-ai/cognee) | ![Stars](https://img.shields.io/github/stars/cognee-ai/cognee) | RAG framework with knowledge graph | Python |
+| [quadbit/projected](https://github.com/quadbit/projected) | ![Stars](https://img.shields.io/github/stars/quadbit/projected) | Advanced RAG with retrieval projections | Python |
+| [truefoundry/braintrust](https://github.com/truefoundry/braintrust) | ![Stars](https://img.shields.io/github/stars/truefoundry/braintrust) | RAG evaluation and automation toolkit | Python |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | ![Stars](https://img.shields.io/github/stars/mem0ai/mem0) | Long-term memory for AI agents | Python |
+| [lancedb/lancedb](https://github.com/lancedb/lancedb) | ![Stars](https://img.shields.io/github/stars/lancedb/lancedb) | Vector database for RAG with advanced filtering | Rust |
+| [quadratic-io/quadratic](https://github.com/quadratic-io/quadratic) | ![Stars](https://img.shields.io/github/stars/quadratic-io/quadratic) | Data-focused RAG with analytical capabilities | TypeScript |
+
+### RAG Evaluation
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas) | ![Stars](https://img.shields.io/github/stars/vibrantlabsai/ragas) | RAG evaluation framework for LLM applications | Python |
+| [explodinggradients/arithmetric](https://github.com/explodinggradients/arithmetric) | ![Stars](https://img.shields.io/github/stars/explodinggradients/arithmetric) | Advanced RAG metrics and evaluation | Python |
+
+---
+
+## Agent Deployment & Serving
+
+### Model Serving Platforms
+
+| Platform | Stars | Description | Language |
+|----------|-------|-------------|----------|
+| [ray-project/ray-serve](https://github.com/ray-project/ray) | ![Stars](https://img.shields.io/github/stars/ray-project/ray) | Distributed model serving with auto-scaling | Python |
+| [kserve/kserve](https://github.com/kserve/kserve) | ![Stars](https://img.shields.io/github/stars/kserve/kserve) | Serverless inferencing on Kubernetes | Go |
+| [seldonio/seldon-core](https://github.com/seldonio/seldon-core) | ![Stars](https://img.shields.io/github/stars/seldonio/seldon-core) | Model deployment on Kubernetes | Python |
+| [triton-inference-server/server](https://github.com/triton-inference-server/server) | ![Stars](https://img.shields.io/github/stars/triton-inference-server/server) | High-performance inference server | C++ |
+| [bentoml/bentoml](https://github.com/bentoml/bentoml) | ![Stars](https://img.shields.io/github/stars/bentoml/bentoml) | Unified model serving framework | Python |
+| [tensorchord/modelz](https://github.com/tensorchord/modelz) | ![Stars](https://img.shields.io/github/stars/tensorchord/modelz) | Minimal model serving platform | Go |
+| [deepset-ai/deploy](https://github.com/deepset-ai/deploy) | ![Stars](https://img.shields.io/github/stars/deepset-ai/deploy) | Deepset's deployment framework for RAG | Python |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | ![Stars](https://img.shields.io/github/stars/vllm-project/vllm) | High-throughput LLM serving | Python |
+| [lm-sys/FastChat](https://github.com/lm-sys/FastChat) | ![Stars](https://img.shields.io/github/stars/lm-sys/FastChat) | Open platform for training, serving, LLMs | Python |
+| [mosaicml/llm-foundry](https://github.com/mosaicml/llm-foundry) | ![Stars](https://img.shields.io/github/stars/mosaicml/llm-foundry) | LLM training and serving toolkit | Python |
+
+### Agent Hosting Platforms
+
+| Platform | Stars | Description | Language |
+|----------|-------|-------------|----------|
+| [streamlit/streamlit](https://github.com/streamlit/streamlit) | ![Stars](https://img.shields.io/github/stars/streamlit/streamlit) | Rapid agent UI deployment | Python |
+| [gradio-app/gradio](https://github.com/gradio-app/gradio) | ![Stars](https://img.shields.io/github/stars/gradio-app/gradio) | Build ML demos and agent interfaces | Python |
+| [chainlit/chainlit](https://github.com/chainlit/chainlit) | ![Stars](https://img.shields.io/github/stars/chainlit/chainlit) | Chat UI for AI agents | TypeScript |
+| [flowiseai/flowise](https://github.com/flowiseai/flowise) | ![Stars](https://img.shields.io/github/stars/flowiseai/flowise) | Drag & drop LLM apps builder | TypeScript |
+| [logspace-ai/langflow](https://github.com/logspace-ai/langflow) | ![Stars](https://img.shields.io/github/stars/logspace-ai/langflow) | Visual framework for LangChain | Python |
+| [service-ai/service](https://github.com/service-ai/service) | ![Stars](https://img.shields.io/github/stars/service-ai/service) | Agent deployment and monitoring | TypeScript |
 
 ---
 
@@ -502,4 +649,4 @@ Inspired by:
 
 **Note**: This list is curated by the community. Inclusion does not imply official endorsement by any platform or company.
 
-**Total Projects: 100+** | **Last Updated: 2025-02-08**
+**Total Projects: 150+** | **Last Updated: 2025-02-08**
