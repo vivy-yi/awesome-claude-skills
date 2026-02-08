@@ -4,7 +4,7 @@
 
 ### 步骤 1：访问 Actions 页面
 
-直接访问：https://github.com/vivy-yi/awesome-claude-skills/actions
+直接访问：https://github.com/vivy-yi/awesome-ai-agents-ecosystem/actions
 
 ### 步骤 2：启用工作流
 
@@ -104,7 +104,7 @@
 
 ```bash
 # 方法 1: 通过 GitHub 网页
-1. 访问 https://github.com/vivy-yi/awesome-claude-skills/actions
+1. 访问 https://github.com/vivy-yi/awesome-ai-agents-ecosystem/actions
 2. 点击 "Verify Links" 工作流
 3. 点击 "Run workflow" 按钮
 4. 选择分支：main
@@ -270,7 +270,7 @@ on:
 添加到 README.md：
 
 ```markdown
-![Actions Status](https://github.com/vivy-yi/awesome-claude-skills/actions/workflows/verify-links.yml/badge.svg)
+![Actions Status](https://github.com/vivy-yi/awesome-ai-agents-ecosystem/actions/workflows/verify-links.yml/badge.svg)
 ```
 
 ## ✅ 启用清单

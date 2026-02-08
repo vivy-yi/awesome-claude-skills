@@ -1,8 +1,8 @@
-# Awesome Claude Skills & AI Agents 精选列表
+# Awesome AI Agents Ecosystem 精选列表
 
-> Claude Code 技能、AI 智能体框架、MCP 服务器、编排工具、评估框架、MLOps 平台和学习资源的精选列表，用于构建智能体。**390+ 项目持续增长中！**
+> AI/ML 智能体开发综合精选列表，涵盖智能体框架、向量数据库、MLOps 工具、Claude 技能、评估框架、编排系统等。**390+ 项目持续增长中！**
 
-[![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-claude-skills)](https://github.com/vivy-yi/awesome-claude-skills)
+[![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-ai-agents-ecosystem)](https://github.com/vivy-yi/awesome-ai-agents-ecosystem)
 [![License](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
 

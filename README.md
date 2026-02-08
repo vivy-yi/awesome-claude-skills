@@ -1,8 +1,8 @@
-# Awesome Claude Skills & AI Agents
+# Awesome AI Agents Ecosystem
 
-> Curated list of the best Claude Code skills, AI agent frameworks, MCP servers, orchestration tools, evaluation frameworks, MLOps platforms, and learning resources for building intelligent agents. **390+ projects and growing!**
+> Comprehensive curated list of the best AI/ML tools, frameworks, and resources for building intelligent agents. Covers agent frameworks, vector databases, MLOps tools, Claude skills, evaluation frameworks, orchestration systems, and more. **390+ projects and growing!**
 
-[![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-claude-skills)](https://github.com/vivy-yi/awesome-claude-skills)
+[![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-ai-agents-ecosystem)](https://github.com/vivy-yi/awesome-ai-agents-ecosystem)
 [![License](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
 

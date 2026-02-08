@@ -19,7 +19,7 @@ done
 echo ""
 echo "方法 2: 手动启用（推荐）"
 echo "=============================="
-echo "1. 访问: https://github.com/vivy-yi/awesome-claude-skills/actions"
+echo "1. 访问: https://github.com/vivy-yi/awesome-ai-agents-ecosystem/actions"
 echo "2. 点击 'I understand my workflows, go ahead and enable them'"
 echo "3. 工作流将自动运行"
 echo ""
