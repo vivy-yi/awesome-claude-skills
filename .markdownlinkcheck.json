@@ -1,0 +1,15 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://cursor\\.sh"
+    },
+    {
+      "pattern": "^https://windsurf\\.ai"
+    }
+  ],
+  "timeout": "10s",
+  "retryCount": 3,
+  "retryOn429": true,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206, 300, 301, 302, 303, 307, 308]
+}
