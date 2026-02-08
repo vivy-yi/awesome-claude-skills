@@ -1,6 +1,6 @@
 # Awesome Claude Skills & AI Agents
 
-> Curated list of the best Claude Code skills, AI agent frameworks, MCP servers, orchestration tools, evaluation frameworks, and learning resources for building intelligent agents. **150+ projects and growing!**
+> Curated list of the best Claude Code skills, AI agent frameworks, MCP servers, orchestration tools, evaluation frameworks, MLOps platforms, and learning resources for building intelligent agents. **250+ projects and growing!**
 
 [![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-claude-skills)](https://github.com/vivy-yi/awesome-claude-skills)
 [![License](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
@@ -17,6 +17,10 @@
 - [RAG Frameworks](#rag-frameworks)
 - [Agent Deployment & Serving](#agent-deployment--serving)
 - [MCP Servers](#mcp-servers)
+- [MLOps & Training Tools](#mlops--training-tools)
+- [AI Memory & Context Systems](#ai-memory--context-systems)
+- [Fine-tuning & LoRA Libraries](#fine-tuning--lora-libraries)
+- [Data Annotation & Labeling](#data-annotation--labeling)
 - [Community Skills](#community-skills)
 - [Evaluation & Testing](#evaluation--testing)
 - [Orchestration & Workflows](#orchestration--workflows)
@@ -291,16 +295,23 @@
 
 | Platform | Stars | Description | Language |
 |----------|-------|-------------|----------|
-| [ray-project/ray-serve](https://github.com/ray-project/ray) | ![Stars](https://img.shields.io/github/stars/ray-project/ray) | Distributed model serving with auto-scaling | Python |
+| [ray-project/ray](https://github.com/ray-project/ray) | ![Stars](https://img.shields.io/github/stars/ray-project/ray) | Distributed model serving with Ray Serve | Python |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | ![Stars](https://img.shields.io/github/stars/vllm-project/vllm) | High-throughput and memory-efficient LLM serving with PagedAttention | Python |
+| [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference) | ![Stars](https://img.shields.io/github/stars/huggingface/text-generation-inference) | Production LLM server powering Hugging Face Inference API | Rust |
+| [sgl-project/sglang](https://github.com/sgl-project/sglang) | ![Stars](https://img.shields.io/github/stars/sgl-project/sglang) | High-performance serving framework for LLMs with low-latency inference | Python |
 | [kserve/kserve](https://github.com/kserve/kserve) | ![Stars](https://img.shields.io/github/stars/kserve/kserve) | Serverless inferencing on Kubernetes | Go |
-| [seldonio/seldon-core](https://github.com/seldonio/seldon-core) | ![Stars](https://img.shields.io/github/stars/seldonio/seldon-core) | Model deployment on Kubernetes | Python |
-| [triton-inference-server/server](https://github.com/triton-inference-server/server) | ![Stars](https://img.shields.io/github/stars/triton-inference-server/server) | High-performance inference server | C++ |
-| [bentoml/bentoml](https://github.com/bentoml/bentoml) | ![Stars](https://img.shields.io/github/stars/bentoml/bentoml) | Unified model serving framework | Python |
+| [SeldonIO/seldon-core](https://github.com/SeldonIO/seldon-core) | ![Stars](https://img.shields.io/github/stars/SeldonIO/seldon-core) | Model deployment on Kubernetes | Python |
+| [triton-inference-server/server](https://github.com/triton-inference-server/server) | ![Stars](https://img.shields.io/github/stars/triton-inference-server/server) | NVIDIA's high-performance inference server | C++ |
+| [bentoml/BentoML](https://github.com/bentoml/BentoML) | ![Stars](https://img.shields.io/github/stars/bentoml/BentoML) | Python-first unified platform for building, shipping, and scaling AI applications | Python |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ![Stars](https://img.shields.io/github/stars/BerriAI/litellm) | Python SDK and proxy server for calling 100+ LLM APIs with unified format | Python |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | ![Stars](https://img.shields.io/github/stars/microsoft/onnxruntime) | Cross-platform, high-performance scoring engine for ML models | C++ |
+| [tensorflow/serving](https://github.com/tensorflow/serving) | ![Stars](https://img.shields.io/github/stars/tensorflow/serving) | Flexible, high-performance serving system for TensorFlow models | C++ |
+| [pytorch/serve](https://github.com/pytorch/serve) | ![Stars](https://img.shields.io/github/stars/pytorch/serve) | PyTorch's official model serving framework | Python |
 | [tensorchord/modelz](https://github.com/tensorchord/modelz) | ![Stars](https://img.shields.io/github/stars/tensorchord/modelz) | Minimal model serving platform | Go |
 | [deepset-ai/deploy](https://github.com/deepset-ai/deploy) | ![Stars](https://img.shields.io/github/stars/deepset-ai/deploy) | Deepset's deployment framework for RAG | Python |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | ![Stars](https://img.shields.io/github/stars/vllm-project/vllm) | High-throughput LLM serving | Python |
-| [lm-sys/FastChat](https://github.com/lm-sys/FastChat) | ![Stars](https://img.shields.io/github/stars/lm-sys/FastChat) | Open platform for training, serving, LLMs | Python |
+| [lm-sys/FastChat](https://github.com/lm-sys/FastChat) | ![Stars](https://img.shields.io/github/stars/lm-sys/FastChat) | Open platform for training, serving, and evaluating LLMs | Python |
 | [mosaicml/llm-foundry](https://github.com/mosaicml/llm-foundry) | ![Stars](https://img.shields.io/github/stars/mosaicml/llm-foundry) | LLM training and serving toolkit | Python |
+| [deepspeedai/DeepSpeed-MII](https://github.com/deepspeedai/DeepSpeed-MII) | ![Stars](https://img.shields.io/github/stars/deepspeedai/DeepSpeed-MII) | High-throughput, low-latency LLM inference | Python |
 
 ### Agent Hosting Platforms
 
@@ -312,6 +323,108 @@
 | [flowiseai/flowise](https://github.com/flowiseai/flowise) | ![Stars](https://img.shields.io/github/stars/flowiseai/flowise) | Drag & drop LLM apps builder | TypeScript |
 | [logspace-ai/langflow](https://github.com/logspace-ai/langflow) | ![Stars](https://img.shields.io/github/stars/logspace-ai/langflow) | Visual framework for LangChain | Python |
 | [service-ai/service](https://github.com/service-ai/service) | ![Stars](https://img.shields.io/github/stars/service-ai/service) | Agent deployment and monitoring | TypeScript |
+
+---
+
+## MLOps & Training Tools
+
+### Experiment Tracking & MLOps Platforms
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | ![Stars](https://img.shields.io/github/stars/mlflow/mlflow) | Open-source platform for building AI agents with tracking, observability, and evaluations | Python |
+| [wandb/wandb](https://github.com/wandb/wandb) | ![Stars](https://img.shields.io/github/stars/wandb/wandb) | AI developer platform for training and fine-tuning with experiment tracking | Python |
+| [aimhubio/aim](https://github.com/aimhubio/aim) | ![Stars](https://img.shields.io/github/stars/aimhubio/aim) | Easy-to-use and supercharged open-source experiment tracker | Python |
+| [kedro-org/kedro](https://github.com/kedro-org/kedro) | ![Stars](https://img.shields.io/github/stars/kedro-org/kedro) | Toolbox for production-ready data science with reproducible pipelines | Python |
+| [mlrun/mlrun](https://github.com/mlrun/mlrun) | ![Stars](https://img.shields.io/github/stars/mlrun/mlrun) | Open-source MLOps platform for building and managing continuous ML applications | Python |
+| [flyteorg/flyte](https://github.com/flyteorg/flyte) | ![Stars](https://img.shields.io/github/stars/flyteorg/flyte) | Scalable and flexible workflow orchestration platform for data, ML, and analytics | Python |
+| [zenml-io/zenml](https://github.com/zenml-io/zenml) | ![Stars](https://img.shields.io/github/stars/zenml-io/zenml) | One AI platform from pipelines to agents with extensible MLOps framework | Python |
+| [determined-ai/determined](https://github.com/determined-ai/determined) | ![Stars](https://img.shields.io/github/stars/determined-ai/determined) | Machine learning platform for distributed training and hyperparameter tuning | Python |
+| [sematic-ai/sematic](https://github.com/sematic-ai/sematic) | ![Stars](https://img.shields.io/github/stars/sematic-ai/sematic) | Open-source ML pipeline development platform | Python |
+| [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) | ![Stars](https://img.shields.io/github/stars/skypilot-org/skypilot) | Run, manage, and scale AI workloads on any cloud infrastructure | Python |
+
+### Hyperparameter Optimization
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [optuna/optuna](https://github.com/optuna/optuna) | ![Stars](https://img.shields.io/github/stars/optuna/optuna) | Hyperparameter optimization framework | Python |
+| [kubeflow/katib](https://github.com/kubeflow/katib) | ![Stars](https://img.shields.io/github/stars/kubeflow/katib) | Automated Machine Learning on Kubernetes for hyperparameter tuning | Go |
+| [google/vizier](https://github.com/google/vizier) | ![Stars](https://img.shields.io/github/stars/google/vizier) | Python-based research interface for blackbox and hyperparameter optimization | Python |
+| [automl/SMAC3](https://github.com/automl/SMAC3) | ![Stars](https://img.shields.io/github/stars/automl/SMAC3) | Versatile Bayesian Optimization package for hyperparameter optimization | Python |
+| [automl/auto-sklearn](https://github.com/automl/auto-sklearn) | ![Stars](https://img.shields.io/github/stars/automl/auto-sklearn) | Automated Machine Learning with scikit-learn | Python |
+| [syne-tune/syne-tune](https://github.com/syne-tune/syne-tune) | ![Stars](https://img.shields.io/github/stars/syne-tune/syne-tune) | Large-scale and asynchronous hyperparameter and architecture optimization | Python |
+
+### Workflow Orchestration
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [apache/airflow](https://github.com/apache/airflow) | ![Stars](https://img.shields.io/github/stars/apache/airflow) | Platform to programmatically author, schedule, and monitor workflows | Python |
+| [dagster-io/dagster](https://github.com/dagster-io/dagster) | ![Stars](https://img.shields.io/github/stars/dagster-io/dagster) | Orchestration platform for development, production, and observation of data assets | Python |
+| [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | ![Stars](https://img.shields.io/github/stars/argoproj/argo-workflows) | Workflow engine for Kubernetes | Go |
+
+---
+
+## AI Memory & Context Systems
+
+### Universal Memory Layers
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | ![Stars](https://img.shields.io/github/stars/mem0ai/mem0) | Universal memory layer for AI Agents with smart memory management | Python |
+| [microsoft/kernel-memory](https://github.com/microsoft/kernel-memory) | ![Stars](https://img.shields.io/github/stars/microsoft/kernel-memory) | Memory solutions for users, teams, and applications with advanced RAG | C# |
+| [letta-ai/letta](https://github.com/letta-ai/letta) | ![Stars](https://img.shields.io/github/stars/letta-ai/letta) | Platform for building stateful agents with advanced memory | Python |
+| [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori) | ![Stars](https://img.shields.io/github/stars/MemoriLabs/Memori) | SQL Native Memory Layer for LLMs and AI Agents | Python |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | ![Stars](https://img.shields.io/github/stars/topoteretes/cognee) | Memory for AI Agents in 6 lines of code with graph-based knowledge extraction | Python |
+
+### Specialized Memory Systems
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [memvid/memvid](https://github.com/memvid/memvid) | ![Stars](https://img.shields.io/github/stars/memvid/memvid) | Serverless, single-file memory layer replacing complex RAG pipelines | Python |
+| [BAI-LAB/MemoryOS](https://github.com/BAI-LAB/MemoryOS) | ![Stars](https://img.shields.io/github/stars/BAI-LAB/MemoryOS) | Memory operating system for personalized AI agents (EMNLP 2025) | Python |
+| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | ![Stars](https://img.shields.io/github/stars/MemTensor/MemOS) | AI memory OS for LLM and Agent systems with persistent skill memory | Python |
+| [kingjulio8238/Memary](https://github.com/kingjulio8238/Memary) | ![Stars](https://img.shields.io/github/stars/kingjulio8238/Memary) | Open Source Memory Layer For Autonomous Agents | Python |
+
+### RAG-Enhanced Memory
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [qhjqhj00/MemoRAG](https://github.com/qhjqhj00/MemoRAG) | ![Stars](https://img.shields.io/github/stars/qhjqhj00/MemoRAG) | Empowering RAG with a memory-based data interface | Python |
+| [OSU-NLP-Group/HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG) | ![Stars](https://img.shields.io/github/stars/OSU-NLP-Group/HippoRAG) | Novel RAG framework inspired by human long-term memory (NeurIPS'24) | Python |
+
+---
+
+## Fine-tuning & LoRA Libraries
+
+### Core PEFT & Training Libraries
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [huggingface/peft](https://github.com/huggingface/peft) | ![Stars](https://img.shields.io/github/stars/huggingface/peft) | State-of-the-art Parameter-Efficient Fine-Tuning methods library (LoRA, QLoRA, AdaLoRA) | Python |
+| [huggingface/trl](https://github.com/huggingface/trl) | ![Stars](https://img.shields.io/github/stars/huggingface/trl) | Full-stack library for training transformer models with SFT, DPO, PPO, GRPO trainers | Python |
+| [microsoft/LoRA](https://github.com/microsoft/LoRA) | ![Stars](https://img.shields.io/github/stars/microsoft/LoRA) | Official LoRA implementation with PyTorch integration | Python |
+
+### All-in-One Fine-tuning Frameworks
+
+| Framework | Stars | Description | Language |
+|-----------|-------|-------------|----------|
+| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | ![Stars](https://img.shields.io/github/stars/hiyouga/LlamaFactory) | Unified fine-tuning framework supporting 100+ LLMs/VLMs with Web UI | Python |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | ![Stars](https://img.shields.io/github/stars/unslothai/unsloth) | Ultra-fast fine-tuning with 2x speed, 70% less VRAM | Python |
+| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | ![Stars](https://img.shields.io/github/stars/axolotl-ai-cloud/axolotl) | Streamlined fine-tuning tool with YAML configs and multiple model support | Python |
+| [Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt) | ![Stars](https://img.shields.io/github/stars/Lightning-AI/litgpt) | 20+ high-performance LLMs with recipes to pretrain, finetune, and deploy | Python |
+
+### QLoRA Specialized
+
+| Library | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [artidoro/qlora](https://github.com/artidoro/qlora) | ![Stars](https://img.shields.io/github/stars/artidoro/qlora) | Efficient finetuning of quantized LLMs, original QLoRA implementation | Python |
+
+### Specialized Fine-tuning Tools
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [h2oai/h2o-llmstudio](https://github.com/h2oai/h2o-llmstudio) | ![Stars](https://img.shields.io/github/stars/h2oai/h2o-llmstudio) | No-code GUI framework for fine-tuning state-of-the-art LLMs | Python |
+| [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | ![Stars](https://img.shields.io/github/stars/karpathy/nanoGPT) | Simplest repository for training/finetuning medium-sized GPTs | Python |
 
 ---
 
@@ -559,6 +672,42 @@
 |--------|-------|-------------|----------|
 | [cursor-ai](https://cursor.sh) | ![Stars](https://img.shields.io/github/stars/getcursor/cursor) | AI-first code editor | Desktop |
 | [windsurf](https://windsurf.ai) | ![Stars](https://img.shields.io/badge/IDE-Windsurf-cyan) | Next-gen AI IDE | Desktop |
+
+---
+
+## Data Annotation & Labeling
+
+### Comprehensive Multi-Modal Platforms
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | ![Stars](https://img.shields.io/github/stars/HumanSignal/label-studio) | Multi-type data labeling and annotation tool with standardized output format | Python |
+| [cvat-ai/cvat](https://github.com/cvat-ai/cvat) | ![Stars](https://img.shields.io/github/stars/cvat-ai/cvat) | Industry-leading data engine for machine learning teams at any scale | Python |
+| [doccano/doccano](https://github.com/doccano/doccano) | ![Stars](https://img.shields.io/github/stars/doccano/doccano) | Open source text annotation tool for machine learning practitioners | Python |
+| [xtreme1-io/xtreme1](https://github.com/xtreme1-io/xtreme1) | ![Stars](https://img.shields.io/github/stars/xtreme1-io/xtreme1) | All-in-one data labeling platform for multimodal data including 3D LiDAR and LLM | Python |
+
+### Image Annotation Tools
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [CSAILVision/LabelMeAnnotationTool](https://github.com/CSAILVision/LabelMeAnnotationTool) | ![Stars](https://img.shields.io/github/stars/CSAILVision/LabelMeAnnotationTool) | Original MIT LabelMe annotation tool for image segmentation | JavaScript |
+| [scalabel/scalabel](https://github.com/scalabel/scalabel) | ![Stars](https://img.shields.io/github/stars/scalabel/scalabel) | Versatile web-based visual data annotation tool | TypeScript |
+| [HumanSignal/labelImg](https://github.com/HumanSignal/labelImg) | ![Stars](https://img.shields.io/github/stars/HumanSignal/labelImg) | Popular image annotation tool for object detection | Python |
+
+### Specialized Annotation Tools
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [alibaba/Trescope](https://github.com/alibaba/Trescope) | ![Stars](https://img.shields.io/github/stars/alibaba/Trescope) | Comprehensive 3D machine learning development tool for labeling and visualizing 3D data | Python |
+| [DeepMicroscopy/Exact](https://github.com/DeepMicroscopy/Exact) | ![Stars](https://img.shields.io/github/stars/DeepMicroscopy/Exact) | Open source online platform for collaborative image labeling | Python |
+| [bit-bots/imagetagger](https://github.com/bit-bots/imagetagger) | ![Stars](https://img.shields.io/github/stars/bit-bots/imagetagger) | Open source online platform for collaborative image labeling | Python |
+
+### Active Learning & Data Quality
+
+| Tool | Stars | Description | Language |
+|------|-------|-------------|----------|
+| [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) | ![Stars](https://img.shields.io/github/stars/cleanlab/cleanlab) | Data-centric AI package for data quality and machine learning with messy data | Python |
+| [Toloka/crowd-kit](https://github.com/Toloka/crowd-kit) | ![Stars](https://img.shields.io/github/stars/Toloka/crowd-kit) | Python tools to control quality of labeled data | Python |
 
 ---
 

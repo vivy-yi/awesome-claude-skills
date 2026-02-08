@@ -1,6 +1,6 @@
 # Awesome Claude Skills & AI Agents 精选列表
 
-> Claude Code 技能、AI 智能体框架、MCP 服务器、编排工具、评估框架和学习资源的精选列表，用于构建智能体。**150+ 项目持续增长中！**
+> Claude Code 技能、AI 智能体框架、MCP 服务器、编排工具、评估框架、MLOps 平台和学习资源的精选列表，用于构建智能体。**250+ 项目持续增长中！**
 
 [![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-claude-skills)](https://github.com/vivy-yi/awesome-claude-skills)
 [![License](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
@@ -19,6 +19,10 @@
 - [RAG 框架](#rag-框架)
 - [智能体部署与服务](#智能体部署与服务)
 - [MCP 服务器](#mcp-服务器)
+- [MLOps 与训练工具](#mlops-与训练工具)
+- [AI 内存与上下文系统](#ai-内存与上下文系统)
+- [微调与 LoRA 库](#微调与-lora-库)
+- [数据标注与标签](#数据标注与标签)
 - [社区技能](#社区技能)
 - [评估与测试](#评估与测试)
 - [编排与工作流](#编排与工作流)
@@ -303,6 +307,108 @@
 
 ---
 
+## MLOps 与训练工具
+
+### 实验跟踪与 MLOps 平台
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | ![Stars](https://img.shields.io/github/stars/mlflow/mlflow) | 构建 AI 智能体的开源平台，提供跟踪、可观测性和评估 | Python |
+| [wandb/wandb](https://github.com/wandb/wandb) | ![Stars](https://img.shields.io/github/stars/wandb/wandb) | AI 开发平台，用于训练和微调模型，提供实验跟踪 | Python |
+| [aimhubio/aim](https://github.com/aimhubio/aim) | ![Stars](https://img.shields.io/github/stars/aimhubio/aim) | 易用且功能强大的开源实验跟踪器 | Python |
+| [kedro-org/kedro](https://github.com/kedro-org/kedro) | ![Stars](https://img.shields.io/github/stars/kedro-org/kedro) | 生产就绪的数据科学工具箱，提供可复现的管道 | Python |
+| [mlrun/mlrun](https://github.com/mlrun/mlrun) | ![Stars](https://img.shields.io/github/stars/mlrun/mlrun) | 构建和管理持续机器学习应用的开源 MLOps 平台 | Python |
+| [flyteorg/flyte](https://github.com/flyteorg/flyte) | ![Stars](https://img.shields.io/github/stars/flyteorg/flyte) | 可扩展且灵活的工作流编排平台，支持数据、ML 和分析 | Python |
+| [zenml-io/zenml](https://github.com/zenml-io/zenml) | ![Stars](https://img.shields.io/github/stars/zenml-io/zenml) | 从管道到智能体的统一 AI 平台，可扩展的 MLOps 框架 | Python |
+| [determined-ai/determined](https://github.com/determined-ai/determined) | ![Stars](https://img.shields.io/github/stars/determined-ai/determined) | 机器学习平台，支持分布式训练和超参数调优 | Python |
+| [sematic-ai/sematic](https://github.com/sematic-ai/sematic) | ![Stars](https://img.shields.io/github/stars/sematic-ai/sematic) | 开源机器学习管道开发平台 | Python |
+| [skypilot-org/skypilot](https://github.com/skypilot-org/skypilot) | ![Stars](https://img.shields.io/github/stars/skypilot-org/skypilot) | 在任何云基础设施上运行、管理和扩展 AI 工作负载 | Python |
+
+### 超参数优化
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [optuna/optuna](https://github.com/optuna/optuna) | ![Stars](https://img.shields.io/github/stars/optuna/optuna) | 超参数优化框架 | Python |
+| [kubeflow/katib](https://github.com/kubeflow/katib) | ![Stars](https://img.shields.io/github/stars/kubeflow/katib) | Kubernetes 上的自动机器学习，用于超参数调优 | Go |
+| [google/vizier](https://github.com/google/vizier) | ![Stars](https://img.shields.io/github/stars/google/vizier) | 用于黑盒和超参数优化的基于 Python 的研究接口 | Python |
+| [automl/SMAC3](https://github.com/automl/SMAC3) | ![Stars](https://img.shields.io/github/stars/automl/SMAC3) | 用于超参数优化的通用贝叶斯优化包 | Python |
+| [automl/auto-sklearn](https://github.com/automl/auto-sklearn) | ![Stars](https://img.shields.io/github/stars/automl/auto-sklearn) | 基于scikit-learn的自动机器学习 | Python |
+| [syne-tune/syne-tune](https://github.com/syne-tune/syne-tune) | ![Stars](https://img.shields.io/github/stars/syne-tune/syne-tune) | 大规模异步超参数和架构优化 | Python |
+
+### 工作流编排
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [apache/airflow](https://github.com/apache/airflow) | ![Stars](https://img.shields.io/github/stars/apache/airflow) | 以编程方式创作、调度和监控工作流的平台 | Python |
+| [dagster-io/dagster](https://github.com/dagster-io/dagster) | ![Stars](https://img.shields.io/github/stars/dagster-io/dagster) | 用于开发、生产和观察数据资产的编排平台 | Python |
+| [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | ![Stars](https://img.shields.io/github/stars/argoproj/argo-workflows) | Kubernetes 的工作流引擎 | Go |
+
+---
+
+## AI 内存与上下文系统
+
+### 通用内存层
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | ![Stars](https://img.shields.io/github/stars/mem0ai/mem0) | AI 智能体的通用内存层，具有智能内存管理 | Python |
+| [microsoft/kernel-memory](https://github.com/microsoft/kernel-memory) | ![Stars](https://img.shields.io/github/stars/microsoft/kernel-memory) | 为用户、团队和应用提供内存解决方案，具有高级 RAG 功能 | C# |
+| [letta-ai/letta](https://github.com/letta-ai/letta) | ![Stars](https://img.shields.io/github/stars/letta-ai/letta) | 构建具有高级内存的有状态智能体的平台 | Python |
+| [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori) | ![Stars](https://img.shields.io/github/stars/MemoriLabs/Memori) | LLM 和 AI 智能体的 SQL 原生内存层 | Python |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | ![Stars](https://img.shields.io/github/stars/topoteretes/cognee) | 6 行代码实现 AI 智能体内存，基于图的知识提取 | Python |
+
+### 专用内存系统
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [memvid/memvid](https://github.com/memvid/memvid) | ![Stars](https://img.shields.io/github/stars/memvid/memvid) | 无服务器单文件内存层，替代复杂的 RAG 管道 | Python |
+| [BAI-LAB/MemoryOS](https://github.com/BAI-LAB/MemoryOS) | ![Stars](https://img.shields.io/github/stars/BAI-LAB/MemoryOS) | 个性化 AI 智能体的内存操作系统（EMNLP 2025） | Python |
+| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | ![Stars](https://img.shields.io/github/stars/MemTensor/MemOS) | LLM 和智能体系统的 AI 内存操作系统，具有持久技能内存 | Python |
+| [kingjulio8238/Memary](https://github.com/kingjulio8238/Memary) | ![Stars](https://img.shields.io/github/stars/kingjulio8238/Memary) | 自主智能体的开源内存层 | Python |
+
+### RAG 增强内存
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [qhjqhj00/MemoRAG](https://github.com/qhjqhj00/MemoRAG) | ![Stars](https://img.shields.io/github/stars/qhjqhj00/MemoRAG) | 通过基于内存的数据接口增强 RAG | Python |
+| [OSU-NLP-Group/HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG) | ![Stars](https://img.shields.io/github/stars/OSU-NLP-Group/HippoRAG) | 受人类长期记忆启发的 novel RAG 框架（NeurIPS'24） | Python |
+
+---
+
+## 微调与 LoRA 库
+
+### 核心 PEFT 与训练库
+
+| 库 | Stars | 描述 | 语言 |
+|----|-------|-------------|------|
+| [huggingface/peft](https://github.com/huggingface/peft) | ![Stars](https://img.shields.io/github/stars/huggingface/peft) | 最先进的参数高效微调方法库（LoRA、QLoRA、AdaLoRA） | Python |
+| [huggingface/trl](https://github.com/huggingface/trl) | ![Stars](https://img.shields.io/github/stars/huggingface/trl) | 用于训练 transformer 模型的全栈库，支持 SFT、DPO、PPO、GRPO 训练器 | Python |
+| [microsoft/LoRA](https://github.com/microsoft/LoRA) | ![Stars](https://img.shields.io/github/stars/microsoft/LoRA) | 带有 PyTorch 集成的官方 LoRA 实现 | Python |
+
+### 一体化微调框架
+
+| 框架 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | ![Stars](https://img.shields.io/github/stars/hiyouga/LlamaFactory) | 统一微调框架，支持 100+ LLMs/VLMs 并提供 Web UI | Python |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | ![Stars](https://img.shields.io/github/stars/unslothai/unsloth) | 超快速微调，速度提升 2 倍，VRAM 减少 70% | Python |
+| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | ![Stars](https://img.shields.io/github/stars/axolotl-ai-cloud/axolotl) | 简化的微调工具，支持 YAML 配置和多模型支持 | Python |
+| [Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt) | ![Stars](https://img.shields.io/github/stars/Lightning-AI/litgpt) | 20+ 高性能 LLM，提供预训练、微调和部署配方 | Python |
+
+### QLoRA 专用
+
+| 库 | Stars | 描述 | 语言 |
+|----|-------|-------------|------|
+| [artidoro/qlora](https://github.com/artidoro/qlora) | ![Stars](https://img.shields.io/github/stars/artidoro/qlora) | 量化 LLM 的高效微调，原始 QLoRA 实现 | Python |
+
+### 专用微调工具
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [h2oai/h2o-llmstudio](https://github.com/h2oai/h2o-llmstudio) | ![Stars](https://img.shields.io/github/stars/h2oai/h2o-llmstudio) | 用于微调最先进 LLM 的无代码 GUI 框架 | Python |
+| [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | ![Stars](https://img.shields.io/github/stars/karpathy/nanoGPT) | 用于训练/微调中等规模 GPT 的最简单存储库 | Python |
+
+---
+
 ## MCP 服务器
 
 ### 官方和核心 MCP 服务器
@@ -547,6 +653,42 @@
 |--------|-------|-------------|----------|
 | [cursor-ai](https://cursor.sh) | ![Stars](https://img.shields.io/github/stars/getcursor/cursor) | AI 优先代码编辑器 | 桌面端 |
 | [windsurf](https://windsurf.ai) | ![Stars](https://img.shields.io/badge/IDE-Windsurf-cyan) | 下一代 AI IDE | 桌面端 |
+
+---
+
+## 数据标注与标签
+
+### 综合多模态平台
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | ![Stars](https://img.shields.io/github/stars/HumanSignal/label-studio) | 多类型数据标注和注释工具，具有标准化输出格式 | Python |
+| [cvat-ai/cvat](https://github.com/cvat-ai/cvat) | | 机器学习团队的行业领先数据引擎 | Python |
+| [doccano/doccano](https://github.com/doccano/doccano) | ![Stars](https://img.shields.io/github/stars/doccano/doccano) | 用于机器学习从业者的开源文本注释工具 | Python |
+| [xtreme1-io/xtreme1](https://github.com/xtreme1-io/xtreme1) | ![Stars](https://img.shields.io/github/stars/xtreme1-io/xtreme1) | 一体化数据标注平台，支持多模态数据，包括 3D LiDAR 和 LLM | Python |
+
+### 图像标注工具
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [CSAILVision/LabelMeAnnotationTool](https://github.com/CSAILVision/LabelMeAnnotationTool) | ![Stars](https://img.shields.io/github/stars/CSAILVision/LabelMeAnnotationTool) | 用于图像分割的原始 MIT LabelMe 注释工具 | JavaScript |
+| [scalabel/scalabel](https://github.com/scalabel/scalabel) | ![Stars](https://img.shields.io/github/stars/scalabel/scalabel) | 通用的基于 Web 的可视化数据注释工具 | TypeScript |
+| [HumanSignal/labelImg](https://github.com/HumanSignal/labelImg) | ![Stars](https://img.shields.io/github/stars/HumanSignal/labelImg) | 用于目标检测的流行图像注释工具 | Python |
+
+### 专用标注工具
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [alibaba/Trescope](https://github.com/alibaba/Trescope) | ![Stars](https://img.shields.io/github/stars/alibaba/Trescope) | 用于标注和可视化 3D 数据的综合 3D 机器学习开发工具 | Python |
+| [DeepMicroscopy/Exact](https://github.com/DeepMicroscopy/Exact) | ![Stars](https://img.shields.io/github/stars/DeepMicroscopy/Exact) | 用于协作图像标注的开源在线平台 | Python |
+| [bit-bots/imagetagger](https://github.com/bit-bots/imagetagger) | ![Stars](https://img.shields.io/github/stars/bit-bots/imagetagger) | 用于协作图像标注的开源在线平台 | Python |
+
+### 主动学习与数据质量
+
+| 工具 | Stars | 描述 | 语言 |
+|------|-------|-------------|------|
+| [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) | ![Stars](https://img.shields.io/github/stars/cleanlab/cleanlab) | 用于数据质量和处理混乱数据的机器学习的数据中心 AI 包 | Python |
+| [Toloka/crowd-kit](https://github.com/Toloka/crowd-kit) | ![Stars](https://img.shields.io/github/stars/Toloka/crowd-kit) | 控制标注数据质量的 Python 工具 | Python |
 
 ---
 
