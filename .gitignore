@@ -13,9 +13,11 @@ Thumbs.db
 *.tmp
 *.temp
 
-# Documentation and working files (local only)
-docs/
-scripts/
-*.md.bak
+# Awesome list - Local only files
 README.old.md
 README.md.backup
+*.md.bak
+
+# Local development files
+docs/
+scripts/
